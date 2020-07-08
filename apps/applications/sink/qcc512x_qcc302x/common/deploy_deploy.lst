@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+	<file configuration="filesystem">D:/3034_sink/example1_qcc3034_adk64226/apps/applications/sink/qcc512x_qcc302x/common/user_ps_filesystem.x2p</file>
+	<file configuration="filesystem">D:/3034_sink/example1_qcc3034_adk64226/apps/applications/sink/qcc512x_qcc302x/common/customer_ro_filesystem.x2p</file>
+	<file configuration="filesystem">D:/3034_sink/example1_qcc3034_adk64226/apps/applications/sink/qcc512x_qcc302x/common/cur_cfg_filesystem.x2p</file>
+	<file configuration="filesystem">D:/3034_sink/example1_qcc3034_adk64226/apps/applications/sink/qcc512x_qcc302x/QCC3034-AA_DEV-BRD-R2-AA/fw_cfg_filesystem.x2p</file>
+	<file configuration="filesystem">D:/3034_sink/example1_qcc3034_adk64226/apps/applications/sink/qcc512x_qcc302x/QCC3034-AA_DEV-BRD-R2-AA/dev_cfg_filesystem.x2p</file>
+	<file configuration="prebuilt_image">D:/3034_sink/example1_qcc3034_adk64226/images/apps0_firmware/common/apps0_firmware.x2p</file>
+	<file configuration="Headset">D:/3034_sink/example1_qcc3034_adk64226/apps/applications/sink/qcc512x_qcc302x/common/sink.x2p</file>
+</files>

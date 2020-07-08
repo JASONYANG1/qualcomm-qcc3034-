@@ -1,0 +1,1031 @@
+INFO : ********************************************************************
+INFO : ***                                                              ***
+INFO : *** Copyright (c) 2020 Qualcomm Technologies International, Ltd. ***
+INFO : ***                                                              ***
+INFO : ********************************************************************
+
+INFO : Build Config Script - Version 0.1 - Log Level Setting: INFO
+INFO : Python Version: 2.7.10 (default, May 23 2015, 09:40:32) [MSC v.1500 32 bit (Intel)] on Windows-8-6.2.9200
+
+INFO : Hardware variant:QCC3034-AA_DEV-BRD-R2-AA
+INFO : Software variant:Headset-Gaming
+
+INFO : Current working directory: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common
+INFO : Input Module Definition Files:
+INFO :     ..\../module_configurations/sink_a2dp_module_def.xml
+INFO :     ..\../module_configurations/sink_hfp_data_def.xml
+INFO :     ..\../module_configurations/sink_pio_module_def.xml
+INFO :     ..\../module_configurations/sink_private_data_module_def.xml
+INFO :     ..\../module_configurations/sink_button_module_def.xml
+INFO :     ..\../module_configurations/sink_inquiry_module_def.xml
+INFO :     ..\../module_configurations/sink_multi_channel_module_def.xml
+INFO :     ..\../module_configurations/sink_device_id_module_def.xml
+INFO :     ..\../module_configurations/sink_dut_module_def.xml
+INFO :     ..\../module_configurations/sink_volume_module_def.xml
+INFO :     ..\../module_configurations/sink_audio_routing_module_def.xml
+INFO :     ..\../module_configurations/sink_audio_prompts_module_def.xml
+INFO :     ..\../module_configurations/sink_tones_module_def.xml
+INFO :     ..\../module_configurations/sink_led_module_def.xml
+INFO :     ..\../module_configurations/sink_dsp_capabilities_def.xml
+INFO :     ..\../module_configurations/sink_avrcp_module_def.xml
+INFO :     ..\../module_configurations/sink_ble_module_def.xml
+INFO :     ..\../module_configurations/sink_gatt_client_ancs_def.xml
+INFO :     ..\../module_configurations/sink_gatt_server_ias_def.xml
+INFO :     ..\../module_configurations/sink_gatt_common_ias_def.xml
+INFO :     ..\../module_configurations/sink_gatt_server_lls_def.xml
+INFO :     ..\../module_configurations/sink_pbap_module_def.xml
+INFO :     ..\../module_configurations/sink_gaia_module_def.xml
+INFO :     ..\../module_configurations/sink_usb_module_def.xml
+INFO :     ..\../module_configurations/sink_usb_onchip_charger_def.xml
+INFO :     ..\../module_configurations/sink_usb_onchip_proprietary_charger_def.xml
+INFO :     ..\../module_configurations/sink_power_manager_module_def.xml
+INFO :     ..\../module_configurations/sink_powermanager_pmu_monitor_disabled_def.xml
+INFO :     ..\../module_configurations/sink_powermanager_onchip_vref_def.xml
+INFO :     ..\../module_configurations/sink_powermanager_onchip_vbat_def.xml
+INFO :     ..\../module_configurations/sink_powermanager_bc12_enabled_def.xml
+INFO :     ..\../module_configurations/sink_powermanager_onchip_vthm_def.xml
+INFO :     ..\../module_configurations/sink_powermanager_onchip_vchg_def.xml
+INFO :     ..\../module_configurations/sink_powermanager_onchip_charger_configuration_def.xml
+INFO :     ..\../module_configurations/sink_sc_module_def.xml
+INFO :     ..\../module_configurations/sink_low_power_mode_def.xml
+INFO :     ..\../module_configurations/sink_upgrade_module_def.xml
+INFO :     ..\../module_configurations/sink_display_module_def.xml
+INFO :     ..\../module_configurations/sink_audio_clock_def.xml
+INFO :     ..\../module_configurations/sink_audio_ttp_def.xml
+INFO :     ..\../module_configurations/sink_downloadable_capabilities_def.xml
+INFO :     ..\../module_configurations/sink_configure_dsp_capability_ids_def.xml
+INFO : Reading from: ..\../global_config.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_a2dp_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_hfp_data_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_pio_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_private_data_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_button_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_inquiry_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_multi_channel_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_device_id_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_dut_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_volume_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_audio_routing_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_audio_prompts_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_tones_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_led_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_dsp_capabilities_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_avrcp_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_ble_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_gatt_client_ancs_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_gatt_server_ias_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_gatt_common_ias_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_gatt_server_lls_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_pbap_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_gaia_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_usb_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_usb_onchip_charger_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_usb_onchip_proprietary_charger_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_power_manager_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_powermanager_pmu_monitor_disabled_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_powermanager_onchip_vref_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_powermanager_onchip_vbat_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_powermanager_bc12_enabled_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_powermanager_onchip_vthm_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_powermanager_onchip_vchg_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_powermanager_onchip_charger_configuration_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_sc_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_low_power_mode_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_upgrade_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_display_module_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_audio_clock_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_audio_ttp_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_downloadable_capabilities_def.xml
+INFO : 
+...... Reading from: ..\../module_configurations/sink_configure_dsp_capability_ids_def.xml
+INFO : Processing module sink_a2dp...
+INFO : Processing module Sink_hfp_data...
+INFO : Packed event Id="At Cmd Event" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed at_cmd Id="AT Command Index" - Type:uint into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed data Id="AT Cmd Data" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Processing module Sink_pio...
+INFO : Packed pio_function Id="Function" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:8
+INFO : Packed pio_num Id="PIO" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Processing module Sink_private_data...
+INFO : Processing module sink_button...
+INFO : Packed pio_mask Id="Logical Input ID(s) Assigned" - Type:bitfield into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed chg_enabled Id="CHG" - Type:bool into BlockId:Relative Word:2 BitOffset:0 ItemSize:1
+INFO : Packed vreg_enabled Id="VREG" - Type:bool into BlockId:Relative Word:2 BitOffset:1 ItemSize:1
+INFO : Packed state_mask Id="State Mask" - Type:bitfield into BlockId:Relative Word:2 BitOffset:2 ItemSize:14
+INFO : Packed type Id="Button Timing" - Type:enum into BlockId:Relative Word:3 BitOffset:2 ItemSize:4
+INFO : Packed user_event Id="User Event" - Type:enum into BlockId:Relative Word:3 BitOffset:6 ItemSize:10
+INFO : Packed input_number Id="Physical Input Signal" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:8
+INFO : Packed button_no Id="Logical Input ID" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Packed event Id="User Event" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Processing module Sink_inquiry...
+INFO : Processing module sink_multi_channel...
+INFO : Packed audio_output_channel_volume_trim Id="Volume Trim [dB/60]" - Type:int into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed audio_output_channel Id="Endpoint Channel" - Type:enum into BlockId:Relative Word:2 BitOffset:7 ItemSize:1
+INFO : Packed audio_output_hw_instance Id="Endpoint Hardware Instance" - Type:enum into BlockId:Relative Word:2 BitOffset:8 ItemSize:2
+INFO : Packed audio_output_hw_type Id="Endpoint Hardware Type" - Type:enum_disabler into BlockId:Relative Word:2 BitOffset:10 ItemSize:3
+INFO : Packed audio_output_channel_label Id="Audio Channel" - Type:enum into BlockId:Relative Word:2 BitOffset:13 ItemSize:3
+INFO : Processing module sink_device_id...
+INFO : Processing module Sink_dut...
+INFO : Processing module Sink_volume...
+INFO : Packed no_of_steps Id="Number Of Volume Steps" - Type:int into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed dB_min Id="Minimum Gain [dB]" - Type:int into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed volume_knee_value_1 Id="Knee Value 1: Volume Step Index" - Type:int into BlockId:Relative Word:3 BitOffset:0 ItemSize:16
+INFO : Packed dB_knee_value_1 Id="Knee Value 1: Gain [dB]" - Type:int into BlockId:Relative Word:4 BitOffset:0 ItemSize:16
+INFO : Packed volume_knee_value_2 Id="Knee Value 2: Volume Step Index" - Type:int into BlockId:Relative Word:5 BitOffset:0 ItemSize:16
+INFO : Packed dB_knee_value_2 Id="Knee Value 2: Gain [dB]" - Type:int into BlockId:Relative Word:6 BitOffset:0 ItemSize:16
+INFO : Packed dB_max Id="Maximum Gain [dB]" - Type:int into BlockId:Relative Word:7 BitOffset:0 ItemSize:16
+INFO : Packed volume_curve_label Id="Audio Output Group" - Type:enum into BlockId:Relative Word:8 BitOffset:15 ItemSize:1
+INFO : Packed Tone Id="Play Tone" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:8
+INFO : Packed A2dpGain Id="Volume Profile ID" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Packed DecVol Id="Profile ID on Volume Down" - Type:enum into BlockId:Relative Word:2 BitOffset:0 ItemSize:4
+INFO : Packed IncVol Id="Profile ID on Volume Up" - Type:enum into BlockId:Relative Word:2 BitOffset:4 ItemSize:4
+INFO : Packed VolGain Id="Speaker Gain" - Type:enum into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : Processing module sink_audio_routing...
+INFO : Processing module Sink_audio_prompts...
+INFO : Packed event Id="Event" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed cancel_queue_play_immediate Id="Clear Queue and Play Immediately" - Type:bool into BlockId:Relative Word:2 BitOffset:0 ItemSize:1
+INFO : Packed sco_block Id="Don't Play when SCO/Wired Routed" - Type:bool into BlockId:Relative Word:2 BitOffset:1 ItemSize:1
+INFO : Packed state_mask Id="State Mask [hex]" - Type:bitfield into BlockId:Relative Word:2 BitOffset:2 ItemSize:14
+INFO : Packed prompt_id Id="Prompt Index" - Type:uint into BlockId:Relative Word:3 BitOffset:8 ItemSize:8
+INFO : Processing module Sink_tones...
+INFO : Packed event Id="Event" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed tone Id="Tones" - Type:enum into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : Processing module sink_led...
+INFO : Packed Event Id="Event" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed Speed Id="Speed Factor" - Type:uint into BlockId:Relative Word:2 BitOffset:0 ItemSize:8
+INFO : Packed OverideLED Id="LED to Use" - Type:enum into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : Packed SpeedAction Id="Speed Action" - Type:enum into BlockId:Relative Word:3 BitOffset:0 ItemSize:1
+INFO : Packed Colour Id="Colour" - Type:enum into BlockId:Relative Word:3 BitOffset:1 ItemSize:3
+INFO : Packed FilterType Id="Filter Type" - Type:enum_disabler into BlockId:Relative Word:3 BitOffset:4 ItemSize:3
+INFO : Packed FollowerLEDDelay Id="Follow LED Delay [ms]" - Type:uint into BlockId:Relative Word:3 BitOffset:7 ItemSize:4
+INFO : Packed FilterToCancel Id="Filter to Cancel" - Type:enum into BlockId:Relative Word:3 BitOffset:11 ItemSize:5
+INFO : Packed OverideDisable Id="Override LED Disable" - Type:bool into BlockId:Relative Word:4 BitOffset:15 ItemSize:1
+INFO : Packed state Id="Extended State" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed OffTime Id="Off Time [ms]" - Type:uint into BlockId:Relative Word:2 BitOffset:0 ItemSize:8
+INFO : Packed OnTime Id="On Time [ms]" - Type:uint into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : Packed TimeOut Id="Timeout Count" - Type:uint into BlockId:Relative Word:3 BitOffset:0 ItemSize:8
+INFO : Packed RepeatTime Id="Repeat Delay [ms]" - Type:uint into BlockId:Relative Word:3 BitOffset:8 ItemSize:8
+INFO : Packed LED_A Id="LED A Mapping" - Type:enum into BlockId:Relative Word:4 BitOffset:0 ItemSize:8
+INFO : Packed DimTime Id="Dim Time [ms]" - Type:uint into BlockId:Relative Word:4 BitOffset:8 ItemSize:8
+INFO : Packed OverideDisable Id="LED Override Disable" - Type:bool into BlockId:Relative Word:5 BitOffset:0 ItemSize:1
+INFO : Packed Colour Id="Colour" - Type:enum into BlockId:Relative Word:5 BitOffset:1 ItemSize:3
+INFO : Packed NumFlashes Id="Number of Flashes" - Type:uint into BlockId:Relative Word:5 BitOffset:4 ItemSize:4
+INFO : Packed LED_B Id="LED B Mapping" - Type:enum into BlockId:Relative Word:5 BitOffset:8 ItemSize:8
+INFO : Packed event Id="Event" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed OffTime Id="Off Time [ms]" - Type:uint into BlockId:Relative Word:2 BitOffset:0 ItemSize:8
+INFO : Packed OnTime Id="On Time [ms]" - Type:uint into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : Packed TimeOut Id="Timeout Count" - Type:uint into BlockId:Relative Word:3 BitOffset:0 ItemSize:8
+INFO : Packed RepeatTime Id="Repeat Delay [ms]" - Type:uint into BlockId:Relative Word:3 BitOffset:8 ItemSize:8
+INFO : Packed LED_A Id="LED A Mapping" - Type:enum into BlockId:Relative Word:4 BitOffset:0 ItemSize:8
+INFO : Packed DimTime Id="Dim Time [ms]" - Type:uint into BlockId:Relative Word:4 BitOffset:8 ItemSize:8
+INFO : Packed OverideDisable Id="LED Override Disable" - Type:bool into BlockId:Relative Word:5 BitOffset:0 ItemSize:1
+INFO : Packed Colour Id="Colour" - Type:enum into BlockId:Relative Word:5 BitOffset:1 ItemSize:3
+INFO : Packed NumFlashes Id="Number of Flashes" - Type:uint into BlockId:Relative Word:5 BitOffset:4 ItemSize:4
+INFO : Packed LED_B Id="LED B Mapping" - Type:enum into BlockId:Relative Word:5 BitOffset:8 ItemSize:8
+INFO : Processing module sink_dsp_capabilities...
+INFO : Processing module Sink_avrcp...
+INFO : Processing module Sink_ble...
+INFO : Processing module sink_gatt_client_ancs...
+INFO : Processing module Sink_gatt_server_ias...
+INFO : Processing module Sink_gatt_common_ias...
+INFO : Processing module Sink_gatt_server_lls...
+INFO : Processing module Sink_pbap...
+INFO : Processing module Sink_gaia...
+INFO : Packed pio Id="Physical PIO" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Processing module Sink_USB...
+INFO : Processing module Sink_USB_Onchip_Charger...
+INFO : Packed current Id="Max Current [mA]" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed disable_leds Id="Disable LEDs" - Type:bool into BlockId:Relative Word:2 BitOffset:8 ItemSize:1
+INFO : Packed power_off Id="Power Off" - Type:bool into BlockId:Relative Word:2 BitOffset:9 ItemSize:1
+INFO : Packed vsel Id="Vsel" - Type:enum into BlockId:Relative Word:2 BitOffset:10 ItemSize:1
+INFO : Packed charge Id="Charger Enable" - Type:bool into BlockId:Relative Word:2 BitOffset:11 ItemSize:1
+INFO : Packed charger_config Id="USB Charger Configuration" - Type:enum into BlockId:Relative Word:2 BitOffset:12 ItemSize:4
+INFO : Processing module Sink_USB_Onchip_Proprietary_Charger...
+INFO : Packed dplus Id="D+ [V]" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed dminus Id="D- [V]" - Type:enum into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed tolerance Id="Tolerance [V]" - Type:enum into BlockId:Relative Word:3 BitOffset:0 ItemSize:16
+INFO : Packed current Id="Max Current [mA]" - Type:uint into BlockId:Relative Word:4 BitOffset:0 ItemSize:16
+INFO : Packed disable_leds Id="Disable LEDs" - Type:bool into BlockId:Relative Word:5 BitOffset:12 ItemSize:1
+INFO : Packed power_off Id="Power Off" - Type:bool into BlockId:Relative Word:5 BitOffset:13 ItemSize:1
+INFO : Packed vsel Id="Vsel" - Type:enum into BlockId:Relative Word:5 BitOffset:14 ItemSize:1
+INFO : Packed charge Id="Charger Enable" - Type:bool into BlockId:Relative Word:5 BitOffset:15 ItemSize:1
+INFO : Processing module sink_power_manager...
+INFO : Processing module sink_power_manager_pmu_monitor_disabled...
+INFO : Processing module sink_powermanager_onchip_vref...
+INFO : Processing module sink_powermanager_onchip_vbat...
+INFO : Packed limit Id="Vbat Battery Threshold Voltage [mV]" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed event Id="Vbat User Event" - Type:enum into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed sources Id="Vbat Trigger Source" - Type:bitfield into BlockId:Relative Word:3 BitOffset:5 ItemSize:3
+INFO : Packed notify_period Id="Vbat Notify Interval [s]" - Type:uint into BlockId:Relative Word:3 BitOffset:8 ItemSize:8
+INFO : Processing module sink_powermanager_charger_bc12_enabled...
+INFO : Processing module sink_powermanager_onchip_vthm...
+INFO : Packed current Id="Max Current [mA]" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed disable_leds Id="Disable Leds" - Type:bool into BlockId:Relative Word:2 BitOffset:0 ItemSize:1
+INFO : Packed power_off Id="Power Off" - Type:bool into BlockId:Relative Word:2 BitOffset:1 ItemSize:1
+INFO : Packed vsel Id="Vsel" - Type:enum into BlockId:Relative Word:2 BitOffset:2 ItemSize:1
+INFO : Packed charge Id="Charge" - Type:bool into BlockId:Relative Word:2 BitOffset:3 ItemSize:1
+INFO : Packed termination_type Id="Termination Type" - Type:enum into BlockId:Relative Word:2 BitOffset:4 ItemSize:3
+INFO : Packed charger_vthm_region Id="Charger Vthm Region" - Type:enum into BlockId:Relative Word:2 BitOffset:7 ItemSize:4
+INFO : Packed termination_voltage Id="Voltage [V]" - Type:enum into BlockId:Relative Word:2 BitOffset:11 ItemSize:5
+INFO : Processing module sink_powermanager_onchip_vchg...
+INFO : Processing module sink_powermanager_onchip_charger_configuration...
+INFO : Processing module sink_secure_connection...
+INFO : Processing module sink_low_power_mode...
+INFO : Processing module sink_upgrade_default...
+INFO : Processing module sink_display...
+INFO : Processing module sink_audio_clock...
+INFO : Packed input_use_case Id="Input Use Case" - Type:bitfield into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed voice_use_case Id="Voice Use Case" - Type:bitfield into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed prompt_use_case Id="Prompt Use Case" - Type:bitfield into BlockId:Relative Word:3 BitOffset:0 ItemSize:16
+INFO : Packed feature_use_case Id="Feature Use Case" - Type:bitfield into BlockId:Relative Word:4 BitOffset:0 ItemSize:16
+INFO : Packed mixer_use_case Id="Mixer Use Case" - Type:bitfield into BlockId:Relative Word:5 BitOffset:0 ItemSize:16
+INFO : Packed output_use_case Id="Output Use Case" - Type:bitfield into BlockId:Relative Word:6 BitOffset:0 ItemSize:16
+INFO : Packed aec_use_case Id="AEC Use Case" - Type:bitfield into BlockId:Relative Word:7 BitOffset:0 ItemSize:16
+INFO : Packed clock_rate Id="Clock Rate" - Type:enum into BlockId:Relative Word:8 BitOffset:0 ItemSize:16
+INFO : Processing module sink_audio_ttp...
+INFO : Processing module sink_downloadable_capabilities...
+INFO : Packed bundle_filename Id="DSP_Capability_Bundle_Filename" - Type:AsciiString into BlockId:Relative Word:1 BitOffset:0 ItemSize:50
+INFO : Packed available_on_processor Id="Processor" - Type:enum into BlockId:Relative Word:26 BitOffset:8 ItemSize:8
+INFO : Processing module sink_configure_dsp_capability_ids...
+INFO : Packed original_cap_id Id="DSP Capability" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed new_cap_id Id="Capability_ID_[Hex]" - Type:uint into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Mapping PS key:9
+INFO : Packed A2dpConnectionUpdateDelay_ms Id="A2DP Delay Connection Updates [ms]" - Type:uint into BlockId:33 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed A2dpLinkLossReconnectionTime_s Id="A2DP Link Loss Reconnection Period [s]" - Type:uint into BlockId:33 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed DefaultA2dpVolume Id="Default A2DP Volume" - Type:uint into BlockId:33 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed EnableA2dpMediaOpenOnConnection Id="A2DP Open Media on Connect" - Type:bool into BlockId:33 Word:4 BitOffset:0 ItemSize:1
+INFO : Packed sbc_uses_medium_bitpool Id="Use Medium SBC Bitpool Size" - Type:bool into BlockId:33 Word:4 BitOffset:1 ItemSize:1
+INFO : Packed EnableA2dpStreaming Id="Enable A2DP Streaming" - Type:bool into BlockId:33 Word:4 BitOffset:2 ItemSize:1
+INFO : Packed a2dpclass Id="A2DP Class" - Type:enum into BlockId:33 Word:4 BitOffset:3 ItemSize:2
+INFO : Packed aptx_ad_a2dp_cap Id="aptX Adaptive A2DP capability" - Type:enum into BlockId:33 Word:4 BitOffset:5 ItemSize:4
+INFO : Packed A2dpOptionalCodecsEnabled Id="A2DP Optional Codecs Enabled" - Type:bitfield into BlockId:33 Word:4 BitOffset:9 ItemSize:7
+INFO : PS key:9 maps BlockId:33 'A2DP Config'
+INFO : Mapping PS key:10
+INFO : Packed dither_bypass Id="Dither Bypass" - Type:bool into BlockId:41 Word:1 BitOffset:4 ItemSize:1
+INFO : Packed compander_bypass Id="Compander Bypass" - Type:bool into BlockId:41 Word:1 BitOffset:5 ItemSize:1
+INFO : Packed spatial_enhance_bypass Id="Spatial Enhance Bypass" - Type:bool into BlockId:41 Word:1 BitOffset:6 ItemSize:1
+INFO : Packed bass_enhance_bypass Id="Bass Enhance Bypass" - Type:bool into BlockId:41 Word:1 BitOffset:7 ItemSize:1
+INFO : Packed user_eq_bypass Id="User EQ Bypass" - Type:bool into BlockId:41 Word:1 BitOffset:8 ItemSize:1
+INFO : Packed eq_flat_enable Id="EQ Flat Enable" - Type:bool into BlockId:41 Word:1 BitOffset:9 ItemSize:1
+INFO : Packed speaker_eq_bypass Id="Speaker EQ Bypass" - Type:bool into BlockId:41 Word:1 BitOffset:10 ItemSize:1
+INFO : Packed subwoofer_bypass Id="Subwoofer Bypass" - Type:bool into BlockId:41 Word:1 BitOffset:11 ItemSize:1
+INFO : Packed audio_enhancement_disable Id="Audio Enhancements Disable" - Type:bool into BlockId:41 Word:1 BitOffset:12 ItemSize:1
+INFO : Packed selected_eq_bank Id="Selected EQ Bank" - Type:uint into BlockId:41 Word:1 BitOffset:13 ItemSize:3
+INFO : PS key:10 maps BlockId:41 'A2DP Session Data'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_a2dp_config_def.h
+INFO : Mapping PS key:11
+INFO : Packed ForceEV3S1ForSco2 Id="Force Second SCO to use EV3 S1 Settings" - Type:bool into BlockId:46 Word:1 BitOffset:6 ItemSize:1
+INFO : Packed LNRCancelsVoiceDialIfActive Id="LNR Cancels VoiceDial if Active" - Type:bool into BlockId:46 Word:1 BitOffset:7 ItemSize:1
+INFO : Packed EnableSyncMuteMicrophones Id="Enable Mic Mute Synchronisation" - Type:bool into BlockId:46 Word:1 BitOffset:8 ItemSize:1
+INFO : Packed AutoAnswerOnConnect Id="Auto Answer on Connect" - Type:bool into BlockId:46 Word:1 BitOffset:9 ItemSize:1
+INFO : Packed ActionOnCallTransfer Id="After Disconnection With Active Audio" - Type:enum into BlockId:46 Word:1 BitOffset:10 ItemSize:2
+INFO : Packed audio_plugin Id="HFP Plug-in" - Type:enum into BlockId:46 Word:1 BitOffset:12 ItemSize:4
+INFO : Packed MuteRemindTime Id="Mute Reminder Interval [s]" - Type:uint into BlockId:46 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed NwsIndicatorRepeatTime_s Id="Network Service Indicator Interval [s]" - Type:uint into BlockId:46 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed MissedCallIndicateTime_s Id="Missed Call Indicator Interval [s]" - Type:uint into BlockId:46 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed MissedCallIndicateAttemps Id="Missed Call Indicator Attempts" - Type:uint into BlockId:46 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed IncomingRingPIO Id="Incoming" - Type:enum into BlockId:46 Word:6 BitOffset:0 ItemSize:8
+INFO : Packed CallActivePIO Id="Call Active" - Type:enum into BlockId:46 Word:6 BitOffset:8 ItemSize:8
+INFO : Packed OutgoingRingPIO Id="Outgoing" - Type:enum into BlockId:46 Word:7 BitOffset:8 ItemSize:8
+INFO : Packed bandwidth_low Id="Bandwidth_low" - Type:uint into BlockId:46 Word:8 BitOffset:0 ItemSize:16
+INFO : Packed bandwidth_high Id="Bandwidth_high" - Type:uint into BlockId:46 Word:9 BitOffset:0 ItemSize:16
+INFO : Packed max_latency Id="Maximum Latency" - Type:uint into BlockId:46 Word:10 BitOffset:0 ItemSize:16
+INFO : Packed voice_settings Id="Voice Settings" - Type:uint into BlockId:46 Word:11 BitOffset:0 ItemSize:16
+INFO : Packed retransmission_effort Id="Retransmission Effort" - Type:enum into BlockId:46 Word:12 BitOffset:0 ItemSize:16
+INFO : Packed additional_audio_params Id="Enable Audio Parameters" - Type:bool into BlockId:46 Word:13 BitOffset:5 ItemSize:1
+INFO : Packed packet_types Id="Sync Packet Types" - Type:bitfield into BlockId:46 Word:13 BitOffset:6 ItemSize:10
+INFO : Packed supported_hfp_codecs Id="Supported HFP Codecs" - Type:bitfield into BlockId:46 Word:14 BitOffset:0 ItemSize:16
+INFO : Packed hf_indicators_mask Id="HF Indicators" - Type:bitfield into BlockId:46 Word:15 BitOffset:0 ItemSize:16
+INFO : Packed pwr_source Id="Power_Source" - Type:bool into BlockId:46 Word:16 BitOffset:6 ItemSize:1
+INFO : Packed batt_level Id="Battery Level Reporting" - Type:bool into BlockId:46 Word:16 BitOffset:7 ItemSize:1
+INFO : Packed sms Id="SMS" - Type:bool into BlockId:46 Word:16 BitOffset:8 ItemSize:1
+INFO : Packed raw_text Id="Raw Text" - Type:bool into BlockId:46 Word:16 BitOffset:9 ItemSize:1
+INFO : Packed caller_name Id="Caller Name" - Type:bool into BlockId:46 Word:16 BitOffset:10 ItemSize:1
+INFO : Packed codec_bandwidths Id="Codec Bandwidths" - Type:bitfield into BlockId:46 Word:16 BitOffset:11 ItemSize:2
+INFO : Packed supported_codecs Id="Supported Codecs" - Type:bitfield into BlockId:46 Word:16 BitOffset:13 ItemSize:3
+INFO : Packed battery_charge Id="Battery Charge" - Type:enum into BlockId:46 Word:17 BitOffset:8 ItemSize:2
+INFO : Packed roaming_status Id="Roaming Status" - Type:enum into BlockId:46 Word:17 BitOffset:10 ItemSize:2
+INFO : Packed signal_strength Id="Signal Strength Indicator" - Type:enum into BlockId:46 Word:17 BitOffset:12 ItemSize:2
+INFO : Packed service Id="Service Indicator" - Type:enum into BlockId:46 Word:17 BitOffset:14 ItemSize:2
+INFO : Packed multipoint Id="Enable Multipoint in HFP Library" - Type:bool into BlockId:46 Word:18 BitOffset:1 ItemSize:1
+INFO : Packed extended_errors Id="Enable Extended Errors" - Type:bool into BlockId:46 Word:18 BitOffset:2 ItemSize:1
+INFO : Packed disable_nrec Id="Disable NREC" - Type:bool into BlockId:46 Word:18 BitOffset:3 ItemSize:1
+INFO : Packed supported_profile Id="Supported Profile" - Type:bitfield into BlockId:46 Word:18 BitOffset:4 ItemSize:3
+INFO : Packed supported_hfp_features Id="Supported HFP Features" - Type:bitfield into BlockId:46 Word:18 BitOffset:7 ItemSize:9
+INFO : Packed link_loss_interval Id="Link Loss Interval [s]" - Type:uint into BlockId:46 Word:19 BitOffset:0 ItemSize:8
+INFO : Packed link_loss_time Id="Link Loss Time [mins]" - Type:uint into BlockId:46 Word:19 BitOffset:8 ItemSize:8
+INFO : Packed hfp_default_volume Id="Default HFP Volume" - Type:enum into BlockId:46 Word:20 BitOffset:12 ItemSize:4
+INFO : PS key:11 maps BlockId:46 'sink hfp data'
+INFO : Mapping PS key:12
+INFO : Packed data Id="AT Cmd Data" - Type:uint into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : PS key:12 maps BlockId:70 'HFP AT Commands Data'
+INFO : Mapping PS key:13
+INFO : Packed event Id="At Cmd Event" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed at_cmd Id="AT Command Index" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : PS key:13 maps BlockId:74 'Event to AT Commands Mapping'
+INFO : Mapping PS key:14
+INFO : Packed phone_number Id="One Touch Phone Number" - Type:AsciiString into BlockId:78 Word:1 BitOffset:0 ItemSize:20
+INFO : PS key:14 maps BlockId:78 'One Touch Dial Phone Number'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_hfp_data_config_def.h
+INFO : Mapping PS key:15
+INFO : Packed user_pio_state Id="User PIO State" - Type:bool into BlockId:92 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:15 maps BlockId:92 'PIO Writeable'
+INFO : Mapping PS key:16
+INFO : Packed pio_invert_0_15 Id="Invert PIO 0-15" - Type:bitfield into BlockId:97 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed pio_invert_16_31 Id="Invert PIO 16-31" - Type:bitfield into BlockId:97 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed pio_invert_32_47 Id="Invert PIO 32-47" - Type:bitfield into BlockId:97 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed pio_invert_48_63 Id="Invert PIO 48-63" - Type:bitfield into BlockId:97 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed pio_invert_64_79 Id="Invert PIO 64-79" - Type:bitfield into BlockId:97 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed pio_invert_80_95 Id="Invert PIO 80-95" - Type:bitfield into BlockId:97 Word:6 BitOffset:0 ItemSize:16
+INFO : Packed pio_mapping_0_15 Id="Mapping PIO 0-15" - Type:bitfield into BlockId:97 Word:7 BitOffset:0 ItemSize:16
+INFO : Packed pio_mapping_16_31 Id="Mapping PIO 16-31" - Type:bitfield into BlockId:97 Word:8 BitOffset:0 ItemSize:16
+INFO : Packed pio_mapping_32_47 Id="Mapping PIO 32-47" - Type:bitfield into BlockId:97 Word:9 BitOffset:0 ItemSize:16
+INFO : Packed pio_mapping_48_63 Id="Mapping PIO 48-63" - Type:bitfield into BlockId:97 Word:10 BitOffset:0 ItemSize:16
+INFO : Packed pio_mapping_64_79 Id="Mapping PIO 64-79" - Type:bitfield into BlockId:97 Word:11 BitOffset:0 ItemSize:16
+INFO : Packed pio_mapping_80_95 Id="Mapping PIO 80-95" - Type:bitfield into BlockId:97 Word:12 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_0_0_15 Id="Group 0 debounce PIO0-15" - Type:bitfield into BlockId:97 Word:13 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_0_16_31 Id="Group 0 debounce PIO16-31" - Type:bitfield into BlockId:97 Word:14 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_0_32_47 Id="Group 0 debounce PIO32-47" - Type:bitfield into BlockId:97 Word:15 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_0_48_63 Id="Group 0 debounce PIO48-63" - Type:bitfield into BlockId:97 Word:16 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_0_64_79 Id="Group 0 debounce PIO64-79" - Type:bitfield into BlockId:97 Word:17 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_0_80_95 Id="Group 0 debounce PIO80-95" - Type:bitfield into BlockId:97 Word:18 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_1_0_15 Id="Group 1 debounce PIO0-15" - Type:bitfield into BlockId:97 Word:19 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_1_16_31 Id="Group 1 debounce PIO16-31" - Type:bitfield into BlockId:97 Word:20 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_1_32_47 Id="Group 1 debounce PIO32-47" - Type:bitfield into BlockId:97 Word:21 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_1_48_63 Id="Group 1 debounce PIO48-63" - Type:bitfield into BlockId:97 Word:22 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_1_64_79 Id="Group 1 debounce PIO64-79" - Type:bitfield into BlockId:97 Word:23 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_1_80_95 Id="Group 1 debounce PIO80-95" - Type:bitfield into BlockId:97 Word:24 BitOffset:0 ItemSize:16
+INFO : Packed pio_debounce_group_0_time_between_checks Id="Group 0 Time Between Checks" - Type:uint into BlockId:97 Word:25 BitOffset:0 ItemSize:8
+INFO : Packed pio_debounce_group_0_num_checks Id="Group 0 Num Checks" - Type:uint into BlockId:97 Word:25 BitOffset:8 ItemSize:8
+INFO : Packed pio_debounce_group_1_time_between_checks Id="Group 1 Time Between Checks" - Type:uint into BlockId:97 Word:26 BitOffset:0 ItemSize:8
+INFO : Packed pio_debounce_group_1_num_checks Id="Group 1 Num Checks" - Type:uint into BlockId:97 Word:26 BitOffset:8 ItemSize:8
+INFO : Packed pio_debounce_group_0_enable_button_mappings Id="Use Button Mappings" - Type:bool into BlockId:97 Word:27 BitOffset:7 ItemSize:1
+INFO : Packed user_pio Id="User Event PIO" - Type:enum into BlockId:97 Word:27 BitOffset:8 ItemSize:8
+INFO : PS key:16 maps BlockId:97 'PIO'
+INFO : Mapping PS key:17
+INFO : Packed pio_function Id="Function" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:8
+INFO : Packed pio_num Id="PIO" - Type:enum into BlockId:Relative Word:0 BitOffset:8 ItemSize:8
+INFO : PS key:17 maps BlockId:128 'PIO Function Configuration'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_pio_config_def.h
+INFO : Mapping PS key:18
+INFO : Packed AutoSwitchOffTime_s Id="Automatic Switch Off Time [s]" - Type:uint into BlockId:132 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed DisablePowerOffAfterPOnTime_s Id="Disable Power Off After Power On Time [s]" - Type:uint into BlockId:132 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed PairModeTimeout_s Id="Paring Timeout [s]" - Type:uint into BlockId:132 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed ConnectableTimeout_s Id="Connectable Timeout [s]" - Type:uint into BlockId:132 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed PairModeTimeoutIfPDL_s Id="Pairing Mode Timeout if PDL is Empty [s]" - Type:uint into BlockId:132 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed PairingModeReminderInterval_s Id="Pairing Mode Reminder Interval [s]" - Type:uint into BlockId:132 Word:6 BitOffset:0 ItemSize:16
+INFO : Packed EncryptionRefreshTimeout_m Id="Encryption Refresh Timeout [mins]" - Type:uint into BlockId:132 Word:7 BitOffset:0 ItemSize:16
+INFO : Packed SecondAGConnectDelayTime_s Id="Second AG Connection Delay Time [ms]" - Type:uint into BlockId:132 Word:8 BitOffset:0 ItemSize:16
+INFO : Packed DefragCheckTimer_s Id="PS Defrag Timer [s]" - Type:uint into BlockId:132 Word:9 BitOffset:0 ItemSize:16
+INFO : Packed AudioAmpPDownTimeInLimbo_s Id="Power PIO Delay on Power Down [s]" - Type:uint into BlockId:132 Word:10 BitOffset:0 ItemSize:16
+INFO : Packed LimboTimeout_s Id="Auto Power On Timeout [s]" - Type:uint into BlockId:132 Word:11 BitOffset:0 ItemSize:16
+INFO : Packed key_minimum Id="PS Defrag Trigger - Minimum Available Keys" - Type:uint into BlockId:132 Word:12 BitOffset:0 ItemSize:8
+INFO : Packed key_size Id="PS Defrag Trigger - Key Size" - Type:uint into BlockId:132 Word:12 BitOffset:8 ItemSize:8
+INFO : Packed max_remote_sco_latency Id="Max Remote Latency sco" - Type:uint into BlockId:132 Word:13 BitOffset:0 ItemSize:16
+INFO : Packed min_remote_sco_timeout Id="Min Remote Timeout sco" - Type:uint into BlockId:132 Word:14 BitOffset:0 ItemSize:16
+INFO : Packed min_local_sco_timeout Id="Min Local Timeout sco" - Type:uint into BlockId:132 Word:15 BitOffset:0 ItemSize:16
+INFO : Packed max_remote_slc_latency Id="Max Remote Latency slc" - Type:uint into BlockId:132 Word:16 BitOffset:0 ItemSize:16
+INFO : Packed min_remote_slc_timeout Id="Min Remote Timeout slc" - Type:uint into BlockId:132 Word:17 BitOffset:0 ItemSize:16
+INFO : Packed min_local_slc_timeout Id="Min Local Timeout slc" - Type:uint into BlockId:132 Word:18 BitOffset:0 ItemSize:16
+INFO : Packed ReconnectionAttempts Id="Max Number of Reconnection Attempt" - Type:uint into BlockId:132 Word:19 BitOffset:0 ItemSize:16
+INFO : Packed pdl_size Id="PDL Size" - Type:uint into BlockId:132 Word:20 BitOffset:0 ItemSize:16
+INFO : Packed ReconnectOnPanic Id="Reconnect on Panic" - Type:bool into BlockId:132 Word:21 BitOffset:0 ItemSize:1
+INFO : Packed ReconnectLastAttempts Id="Reconnect Last Number of Attempts to Try" - Type:uint into BlockId:132 Word:21 BitOffset:1 ItemSize:3
+INFO : Packed DiscoIfPDLLessThan Id="Discoverable if PDL Less Than" - Type:uint into BlockId:132 Word:21 BitOffset:4 ItemSize:4
+INFO : Packed partitions_free Id="Free partitions" - Type:uint into BlockId:132 Word:21 BitOffset:8 ItemSize:8
+INFO : Packed EnterPairingModeOnFailureToConn Id="Enter Pairing Mode on Failure to Connect to AG" - Type:bool into BlockId:132 Word:22 BitOffset:0 ItemSize:1
+INFO : Packed AutoReconnectPowerOn Id="Automatically Reconnect at Power On" - Type:bool into BlockId:132 Word:22 BitOffset:1 ItemSize:1
+INFO : Packed pair_mode_en Id="Enter Discoverable Mode when Connectable" - Type:bool into BlockId:132 Word:22 BitOffset:2 ItemSize:1
+INFO : Packed AllowAutomaticPowerOffWhenCharging Id="Allow Automatic Power Off When Charging" - Type:bool into BlockId:132 Word:22 BitOffset:3 ItemSize:1
+INFO : Packed PowerOffOnlyIfVRegEnLow Id="Power Off only if Vreg Enable Low" - Type:bool into BlockId:132 Word:22 BitOffset:4 ItemSize:1
+INFO : Packed DisablePowerOffAfterPowerOn Id="Disable Power Off after Power On" - Type:bool into BlockId:132 Word:22 BitOffset:5 ItemSize:1
+INFO : Packed RemainDiscoverableAtAllTimes Id="Remain Discoverable at All Times" - Type:bool into BlockId:132 Word:22 BitOffset:6 ItemSize:1
+INFO : Packed PowerOffAfterPDLReset Id="Power Off after PDL is Reset" - Type:bool into BlockId:132 Word:22 BitOffset:7 ItemSize:1
+INFO : Packed ActionOnPanicReset Id="Reconnection Action after Panic" - Type:enum into BlockId:132 Word:22 BitOffset:8 ItemSize:2
+INFO : Packed PairIfPDLLessThan Id="RSSI Pairing if PDL Less Than" - Type:uint into BlockId:132 Word:22 BitOffset:10 ItemSize:2
+INFO : Packed ActionOnPowerOn Id="After Power On Connect To" - Type:enum into BlockId:132 Word:22 BitOffset:12 ItemSize:2
+INFO : Packed PowerDownOnDiscoTimeout Id="Action on Pairing Timeout" - Type:enum into BlockId:132 Word:22 BitOffset:14 ItemSize:2
+INFO : Packed EncryptOnSLCEstablishment Id="Encrypt on SLC establishment" - Type:bool into BlockId:132 Word:23 BitOffset:6 ItemSize:1
+INFO : Packed DisableCompletePowerOff Id="Disable Complete Power Off" - Type:bool into BlockId:132 Word:23 BitOffset:7 ItemSize:1
+INFO : Packed GoConnectableDuringLinkLoss Id="Go Connectable during Link Loss" - Type:bool into BlockId:132 Word:23 BitOffset:8 ItemSize:1
+INFO : Packed DisableRoleSwitching Id="Disable Role Switching" - Type:bool into BlockId:132 Word:23 BitOffset:9 ItemSize:1
+INFO : Packed AutoPowerOnAfterInitialisation Id="Auto Power On after Initialisation Enable" - Type:bool into BlockId:132 Word:23 BitOffset:10 ItemSize:1
+INFO : Packed ResetAfterPowerOffComplete Id="Reset Chip after Power Off is Complete" - Type:bool into BlockId:132 Word:23 BitOffset:11 ItemSize:1
+INFO : Packed SecurePairing Id="Secure Pairing Mode Enable" - Type:bool into BlockId:132 Word:23 BitOffset:12 ItemSize:1
+INFO : Packed UseDiffConnectedEventAtPowerOn Id="Different SLC Connected Event at Power On" - Type:bool into BlockId:132 Word:23 BitOffset:13 ItemSize:1
+INFO : Packed ManInTheMiddle Id="BT2.1 Man in the Middle" - Type:bool into BlockId:132 Word:23 BitOffset:14 ItemSize:1
+INFO : Packed DoNotDiscoDuringLinkLoss Id="Do Not Go Discoverable during Link Loss" - Type:bool into BlockId:132 Word:23 BitOffset:15 ItemSize:1
+INFO : PS key:18 maps BlockId:132 'SinkPrivateData'
+INFO : Mapping PS key:19
+INFO : Packed multipoint_enable Id="Enable Multipoint in VM App" - Type:bool into BlockId:159 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:19 maps BlockId:159 'SinkPrivateData_Writeable'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_private_data_config_def.h
+INFO : Mapping PS key:20
+INFO : Packed event Id="User Event" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : PS key:20 maps BlockId:164 'Button Sequence Configuration'
+INFO : Mapping PS key:21
+INFO : Packed double_press_time Id="Double Press [ms]" - Type:uint into BlockId:196 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed long_press_time Id="Long Press [ms]" - Type:uint into BlockId:196 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed very_long_press_time Id="Very Long Press [ms]" - Type:uint into BlockId:196 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed repeat_time Id="Repeat Rate [ms]" - Type:uint into BlockId:196 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed very_very_long_press_time Id="Very Very Long Press [ms]" - Type:uint into BlockId:196 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed charger_debounce_period_ms Id="Charger: Time Between Debounce Checks [ms]" - Type:uint into BlockId:196 Word:6 BitOffset:0 ItemSize:8
+INFO : Packed charger_debounce_number Id="Charger: Num of Debounce Checks" - Type:uint into BlockId:196 Word:6 BitOffset:8 ItemSize:8
+INFO : Packed pio_debounce_period_ms Id="PIO: Time Between Debounce Checks [ms]" - Type:uint into BlockId:196 Word:7 BitOffset:0 ItemSize:8
+INFO : Packed pio_debounce_number Id="PIO: Num of Debounce Checks" - Type:uint into BlockId:196 Word:7 BitOffset:8 ItemSize:8
+INFO : Packed IgnoreButtonPressAfterLedEnable Id="Ignore Button Event if Enabling LEDs" - Type:bool into BlockId:196 Word:8 BitOffset:12 ItemSize:1
+INFO : Packed separate_vd_buttons Id="Separate Voice Dial buttons" - Type:bool into BlockId:196 Word:8 BitOffset:13 ItemSize:1
+INFO : Packed separate_lnr_buttons Id="Separate Last Number Redial buttons" - Type:bool into BlockId:196 Word:8 BitOffset:14 ItemSize:1
+INFO : Packed go_connectable_on_button_press Id="Go Connectable on Button Press" - Type:bool into BlockId:196 Word:8 BitOffset:15 ItemSize:1
+INFO : PS key:21 maps BlockId:196 'Button Config Block 2'
+INFO : Mapping PS key:22
+INFO : Packed input_number Id="Physical Input Signal" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:8
+INFO : Packed button_no Id="Logical Input ID" - Type:enum into BlockId:Relative Word:0 BitOffset:8 ItemSize:8
+INFO : PS key:22 maps BlockId:208 'Translation Table'
+INFO : Mapping PS key:23
+INFO : Packed pio_mask Id="Logical Input ID(s) Assigned" - Type:bitfield into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed chg_enabled Id="CHG" - Type:bool into BlockId:Relative Word:1 BitOffset:0 ItemSize:1
+INFO : Packed vreg_enabled Id="VREG" - Type:bool into BlockId:Relative Word:1 BitOffset:1 ItemSize:1
+INFO : Packed state_mask Id="State Mask" - Type:bitfield into BlockId:Relative Word:1 BitOffset:2 ItemSize:14
+INFO : Packed type Id="Button Timing" - Type:enum into BlockId:Relative Word:2 BitOffset:2 ItemSize:4
+INFO : Packed user_event Id="User Event" - Type:enum into BlockId:Relative Word:2 BitOffset:6 ItemSize:10
+INFO : PS key:23 maps BlockId:228 'User Event Set C'
+INFO : Mapping PS key:24
+INFO : Packed pio_mask Id="Logical Input ID(s) Assigned" - Type:bitfield into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed chg_enabled Id="CHG" - Type:bool into BlockId:Relative Word:1 BitOffset:0 ItemSize:1
+INFO : Packed vreg_enabled Id="VREG" - Type:bool into BlockId:Relative Word:1 BitOffset:1 ItemSize:1
+INFO : Packed state_mask Id="State Mask" - Type:bitfield into BlockId:Relative Word:1 BitOffset:2 ItemSize:14
+INFO : Packed type Id="Button Timing" - Type:enum into BlockId:Relative Word:2 BitOffset:2 ItemSize:4
+INFO : Packed user_event Id="User Event" - Type:enum into BlockId:Relative Word:2 BitOffset:6 ItemSize:10
+INFO : PS key:24 maps BlockId:298 'User Event Set B'
+INFO : Mapping PS key:25
+INFO : Packed pio_mask Id="Logical Input ID(s) Assigned" - Type:bitfield into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed chg_enabled Id="CHG" - Type:bool into BlockId:Relative Word:1 BitOffset:0 ItemSize:1
+INFO : Packed vreg_enabled Id="VREG" - Type:bool into BlockId:Relative Word:1 BitOffset:1 ItemSize:1
+INFO : Packed state_mask Id="State Mask" - Type:bitfield into BlockId:Relative Word:1 BitOffset:2 ItemSize:14
+INFO : Packed type Id="Button Timing" - Type:enum into BlockId:Relative Word:2 BitOffset:2 ItemSize:4
+INFO : Packed user_event Id="User Event" - Type:enum into BlockId:Relative Word:2 BitOffset:6 ItemSize:10
+INFO : PS key:25 maps BlockId:368 'User Event Set A'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_button_config_def.h
+INFO : Mapping PS key:26
+INFO : Packed tx_power Id="Inquiry Tx Power" - Type:int into BlockId:438 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed threshold Id="RSSI Threshold" - Type:int into BlockId:438 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed diff_threshold Id="RSSI Difference Threshold" - Type:int into BlockId:438 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed cod_filter Id="Class Of Device Filter" - Type:ulong into BlockId:438 MsWord:4 MsBitOffset:0 MsItemSize:16 LsWord:5 LsBitOffset:0 LsItemSize:16
+INFO : Packed conn_threshold Id="Connection Threshold" - Type:int into BlockId:438 Word:6 BitOffset:0 ItemSize:16
+INFO : Packed conn_diff_threshold Id="Connection Difference" - Type:int into BlockId:438 Word:7 BitOffset:0 ItemSize:16
+INFO : Packed timeout Id="Inquiry Timeout [1.28*s]" - Type:uint into BlockId:438 Word:8 BitOffset:0 ItemSize:8
+INFO : Packed max_responses Id="Maximum Responses" - Type:uint into BlockId:438 Word:8 BitOffset:8 ItemSize:8
+INFO : Packed pair_on_pdl_reset Id="Start RSSI Pairing on PDL Reset" - Type:bool into BlockId:438 Word:9 BitOffset:0 ItemSize:1
+INFO : Packed try_all_discovered Id="Try All Discovered" - Type:bool into BlockId:438 Word:9 BitOffset:1 ItemSize:1
+INFO : Packed dont_pair_if_in_pdl Id="Dont  Pair if in PDL" - Type:bool into BlockId:438 Word:9 BitOffset:2 ItemSize:1
+INFO : Packed connect_if_in_pdl Id="Connect if in PDL" - Type:bool into BlockId:438 Word:9 BitOffset:3 ItemSize:1
+INFO : Packed num_results Id="Number of Results to Store" - Type:uint into BlockId:438 Word:9 BitOffset:4 ItemSize:4
+INFO : Packed resume_timeout Id="Resume Timeout [s]" - Type:uint into BlockId:438 Word:9 BitOffset:8 ItemSize:8
+INFO : Packed page_scan_interval Id="Page Scan Interval" - Type:uint into BlockId:438 Word:10 BitOffset:0 ItemSize:16
+INFO : Packed page_scan_window Id="Page Scan Window" - Type:uint into BlockId:438 Word:11 BitOffset:0 ItemSize:16
+INFO : Packed inquiry_scan_interval Id="Inquiry Scan Interval" - Type:uint into BlockId:438 Word:12 BitOffset:0 ItemSize:16
+INFO : Packed inquiry_scan_window Id="Inquiry Scan Window" - Type:uint into BlockId:438 Word:13 BitOffset:0 ItemSize:16
+INFO : Packed InquiryTimeout_s Id="Inquiry Timeout Period [s]" - Type:uint into BlockId:438 Word:14 BitOffset:0 ItemSize:16
+INFO : PS key:26 maps BlockId:438 'SinkInquiry'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_inquiry_config_def.h
+INFO : Mapping PS key:27
+INFO : Packed audio_output_channel_volume_trim Id="Volume Trim [dB/60]" - Type:int into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed audio_output_channel Id="Endpoint Channel" - Type:enum into BlockId:Relative Word:1 BitOffset:7 ItemSize:1
+INFO : Packed audio_output_hw_instance Id="Endpoint Hardware Instance" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:2
+INFO : Packed audio_output_hw_type Id="Endpoint Hardware Type" - Type:enum_disabler into BlockId:Relative Word:1 BitOffset:10 ItemSize:3
+INFO : Packed audio_output_channel_label Id="Audio Channel" - Type:enum into BlockId:Relative Word:1 BitOffset:13 ItemSize:3
+INFO : Packed fixed_hardware_gain Id="Fixed Hardware Gain" - Type:int into BlockId:456 Word:15 BitOffset:0 ItemSize:16
+INFO : Packed enable_24_bit_resolution Id="Audio Output Resolution" - Type:enum into BlockId:456 Word:16 BitOffset:11 ItemSize:1
+INFO : Packed volume_scaling_method_main Id="Primary/Secondary/Subwoofer Volume Scaling Method" - Type:enum into BlockId:456 Word:16 BitOffset:12 ItemSize:2
+INFO : Packed volume_scaling_method_aux Id="Aux Volume Scaling Method" - Type:enum into BlockId:456 Word:16 BitOffset:14 ItemSize:2
+INFO : PS key:27 maps BlockId:456 'SinkMultiChannel'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_multi_channel_config_def.h
+INFO : Mapping PS key:28
+INFO : Packed vendor_id_source Id="Vendor ID Source" - Type:enum into BlockId:476 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed vendor_id Id="Vendor ID [hex]" - Type:uint into BlockId:476 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed product_id Id="Product ID [hex]" - Type:uint into BlockId:476 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed bcd_version Id="BCD Version [hex]" - Type:uint into BlockId:476 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed sw_version_msb Id="Software Version (most significant 32 bits) [hex]" - Type:ulong into BlockId:476 MsWord:5 MsBitOffset:0 MsItemSize:16 LsWord:6 LsBitOffset:0 LsItemSize:16
+INFO : Packed sw_version_lsb Id="Software Version (least significant 32 bits) [hex]" - Type:ulong into BlockId:476 MsWord:7 MsBitOffset:0 MsItemSize:16 LsWord:8 LsBitOffset:0 LsItemSize:16
+INFO : PS key:28 maps BlockId:476 'Device and Software Version Module'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_device_id_config_def.h
+INFO : Mapping PS key:29
+INFO : Packed dut_pio Id="DUT mode PIO" - Type:enum into BlockId:488 Word:1 BitOffset:8 ItemSize:8
+INFO : PS key:29 maps BlockId:488 'sink dut readonly'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_dut_config_def.h
+INFO : Mapping PS key:30
+INFO : Packed no_of_steps Id="Number Of Volume Steps" - Type:int into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed dB_min Id="Minimum Gain [dB]" - Type:int into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed volume_knee_value_1 Id="Knee Value 1: Volume Step Index" - Type:int into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed dB_knee_value_1 Id="Knee Value 1: Gain [dB]" - Type:int into BlockId:Relative Word:3 BitOffset:0 ItemSize:16
+INFO : Packed volume_knee_value_2 Id="Knee Value 2: Volume Step Index" - Type:int into BlockId:Relative Word:4 BitOffset:0 ItemSize:16
+INFO : Packed dB_knee_value_2 Id="Knee Value 2: Gain [dB]" - Type:int into BlockId:Relative Word:5 BitOffset:0 ItemSize:16
+INFO : Packed dB_max Id="Maximum Gain [dB]" - Type:int into BlockId:Relative Word:6 BitOffset:0 ItemSize:16
+INFO : Packed volume_curve_label Id="Audio Output Group" - Type:enum into BlockId:Relative Word:7 BitOffset:15 ItemSize:1
+INFO : Packed Tone Id="Play Tone" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:8
+INFO : Packed A2dpGain Id="Volume Profile ID" - Type:enum into BlockId:Relative Word:0 BitOffset:8 ItemSize:8
+INFO : Packed DecVol Id="Profile ID on Volume Down" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:4
+INFO : Packed IncVol Id="Profile ID on Volume Up" - Type:enum into BlockId:Relative Word:1 BitOffset:4 ItemSize:4
+INFO : Packed VolGain Id="Speaker Gain" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Packed gVolButtonsInverted Id="Volume Orientation button inverted state" - Type:bool into BlockId:493 Word:49 BitOffset:15 ItemSize:1
+INFO : PS key:30 maps BlockId:493 'sink volume writeable data'
+INFO : Mapping PS key:31
+INFO : Packed StoreCurrentSinkVolSrcTimeout_s Id="Store Current Sink Volume and Audio Source Timeout [s]" - Type:uint into BlockId:546 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed VolumeChangeCausesUnMute Id="Volume Change Causes Unmute" - Type:bool into BlockId:546 Word:2 BitOffset:13 ItemSize:1
+INFO : Packed AdjustVolumeWhilstMuted Id="Adjust Volume whilst Muted" - Type:bool into BlockId:546 Word:2 BitOffset:14 ItemSize:1
+INFO : Packed MuteSpeakerAndMic Id="Mute Speaker as well as Microphone" - Type:bool into BlockId:546 Word:2 BitOffset:15 ItemSize:1
+INFO : PS key:31 maps BlockId:546 'Sink Volume Readonly'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_volume_config_def.h
+INFO : Mapping PS key:32
+INFO : Packed voice_quality Id="Voice Quality" - Type:enum into BlockId:552 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed music_quality Id="Music Quality" - Type:enum into BlockId:552 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed enableMixingOfVoiceAndAudio Id="Enable Mixing of Voice and Audio" - Type:bool into BlockId:552 Word:3 BitOffset:2 ItemSize:1
+INFO : Packed use_two_mic_back_channel Id="Two Mic Back Channel DSP Kap File Selection" - Type:bool into BlockId:552 Word:3 BitOffset:3 ItemSize:1
+INFO : Packed use_one_mic_back_channel Id="One Mic Back Channel DSP Kap File Selection" - Type:bool into BlockId:552 Word:3 BitOffset:4 ItemSize:1
+INFO : Packed force_resampling_of_tones Id="Force Re-sampling of Tones" - Type:bool into BlockId:552 Word:3 BitOffset:5 ItemSize:1
+INFO : Packed manual_source_selection Id="Audio Input Selection" - Type:enum into BlockId:552 Word:3 BitOffset:6 ItemSize:1
+INFO : Packed audio_input_routing Id="Audio Input Routing" - Type:enum into BlockId:552 Word:3 BitOffset:7 ItemSize:2
+INFO : Packed dut_input Id="DUT Input" - Type:enum into BlockId:552 Word:3 BitOffset:9 ItemSize:3
+INFO : Packed spdif_supported_data_types Id="Supported SPDIF Input Codecs" - Type:bitfield into BlockId:552 Word:3 BitOffset:12 ItemSize:4
+INFO : Packed mic_bias_0_voltage Id="Microphone Bias 0 voltage" - Type:enum into BlockId:552 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed mic_bias_1_voltage Id="Microphone Bias 1 voltage" - Type:enum into BlockId:552 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed instance_mic_1 Id="Audio Instance for Voice Mic 1" - Type:enum into BlockId:552 Word:6 BitOffset:0 ItemSize:2
+INFO : Packed bias_config_mic_1 Id="Bias Drive Voice Mic 1" - Type:enum into BlockId:552 Word:6 BitOffset:2 ItemSize:2
+INFO : Packed gain_mic_1 Id="Gain for Voice Mic 1" - Type:uint into BlockId:552 Word:6 BitOffset:4 ItemSize:5
+INFO : Packed pio_mic_1 Id="Drive PIO for Voice Mic 1" - Type:enum into BlockId:552 Word:6 BitOffset:9 ItemSize:7
+INFO : Packed channel_mic_1 Id="Audio channel for Voice Mic 1" - Type:enum into BlockId:552 Word:7 BitOffset:14 ItemSize:1
+INFO : Packed digital_mic_1 Id="Voice Mic 1 Digital" - Type:bool into BlockId:552 Word:7 BitOffset:15 ItemSize:1
+INFO : Packed instance_mic_2 Id="Audio Instance for Voice Mic 2" - Type:enum into BlockId:552 Word:8 BitOffset:0 ItemSize:2
+INFO : Packed bias_config_mic_2 Id="Bias Drive Voice Mic 2" - Type:enum into BlockId:552 Word:8 BitOffset:2 ItemSize:2
+INFO : Packed gain_mic_2 Id="Gain for Voice Mic 2" - Type:uint into BlockId:552 Word:8 BitOffset:4 ItemSize:5
+INFO : Packed pio_mic_2 Id="Drive PIO for Voice Mic 2" - Type:enum into BlockId:552 Word:8 BitOffset:9 ItemSize:7
+INFO : Packed channel_mic_2 Id="Audio channel for Voice Mic 2" - Type:enum into BlockId:552 Word:9 BitOffset:14 ItemSize:1
+INFO : Packed digital_mic_2 Id="Voice Mic 2 Digital" - Type:bool into BlockId:552 Word:9 BitOffset:15 ItemSize:1
+INFO : Packed instance_mic_3 Id="Audio Instance for Voice Mic 3" - Type:enum into BlockId:552 Word:10 BitOffset:0 ItemSize:2
+INFO : Packed bias_config_mic_3 Id="Bias Drive Voice Mic 3" - Type:enum into BlockId:552 Word:10 BitOffset:2 ItemSize:2
+INFO : Packed gain_mic_3 Id="Gain for Voice Mic 3" - Type:uint into BlockId:552 Word:10 BitOffset:4 ItemSize:5
+INFO : Packed pio_mic_3 Id="Drive PIO for Voice Mic 3" - Type:enum into BlockId:552 Word:10 BitOffset:9 ItemSize:7
+INFO : Packed channel_mic_3 Id="Audio channel for Voice Mic 3" - Type:enum into BlockId:552 Word:11 BitOffset:14 ItemSize:1
+INFO : Packed digital_mic_3 Id="Voice Mic 3 Digital" - Type:bool into BlockId:552 Word:11 BitOffset:15 ItemSize:1
+INFO : Packed instance_mic_4 Id="Audio Instance for Voice Mic 4" - Type:enum into BlockId:552 Word:12 BitOffset:0 ItemSize:2
+INFO : Packed bias_config_mic_4 Id="Bias Drive Voice Mic 4" - Type:enum into BlockId:552 Word:12 BitOffset:2 ItemSize:2
+INFO : Packed gain_mic_4 Id="Gain for Voice Mic 4" - Type:uint into BlockId:552 Word:12 BitOffset:4 ItemSize:5
+INFO : Packed pio_mic_4 Id="Drive PIO for Voice Mic 4" - Type:enum into BlockId:552 Word:12 BitOffset:9 ItemSize:7
+INFO : Packed channel_mic_4 Id="Audio channel for Voice Mic 4" - Type:enum into BlockId:552 Word:13 BitOffset:14 ItemSize:1
+INFO : Packed digital_mic_4 Id="Voice Mic 4 Digital" - Type:bool into BlockId:552 Word:13 BitOffset:15 ItemSize:1
+INFO : Packed instance_mic_5 Id="Audio Instance for Voice Mic 5" - Type:enum into BlockId:552 Word:14 BitOffset:0 ItemSize:2
+INFO : Packed bias_config_mic_5 Id="Bias Drive Voice Mic 5" - Type:enum into BlockId:552 Word:14 BitOffset:2 ItemSize:2
+INFO : Packed gain_mic_5 Id="Gain for Voice Mic 5" - Type:uint into BlockId:552 Word:14 BitOffset:4 ItemSize:5
+INFO : Packed pio_mic_5 Id="Drive PIO for Voice Mic 5" - Type:enum into BlockId:552 Word:14 BitOffset:9 ItemSize:7
+INFO : Packed channel_mic_5 Id="Audio channel for Voice Mic 5" - Type:enum into BlockId:552 Word:15 BitOffset:14 ItemSize:1
+INFO : Packed digital_mic_5 Id="Voice Mic 5 Digital" - Type:bool into BlockId:552 Word:15 BitOffset:15 ItemSize:1
+INFO : Packed instance_mic_6 Id="Audio Instance for Voice Mic 6" - Type:enum into BlockId:552 Word:16 BitOffset:0 ItemSize:2
+INFO : Packed bias_config_mic_6 Id="Bias Drive Voice Mic 6" - Type:enum into BlockId:552 Word:16 BitOffset:2 ItemSize:2
+INFO : Packed gain_mic_6 Id="Gain for Voice Mic 6" - Type:uint into BlockId:552 Word:16 BitOffset:4 ItemSize:5
+INFO : Packed pio_mic_6 Id="Drive PIO for Voice Mic 6" - Type:enum into BlockId:552 Word:16 BitOffset:9 ItemSize:7
+INFO : Packed channel_mic_6 Id="Audio channel for Voice Mic 6" - Type:enum into BlockId:552 Word:17 BitOffset:14 ItemSize:1
+INFO : Packed digital_mic_6 Id="Voice Mic 6 Digital" - Type:bool into BlockId:552 Word:17 BitOffset:15 ItemSize:1
+INFO : Packed analogue_input_resolution_instance Id="Analogue Input Resolution Instance" - Type:enum into BlockId:552 Word:18 BitOffset:7 ItemSize:1
+INFO : Packed pre_amp_analogue_in Id="Analogue In Preamplifier" - Type:bool into BlockId:552 Word:18 BitOffset:8 ItemSize:1
+INFO : Packed instance_line_in Id="Audio Instance for Analogue In" - Type:enum into BlockId:552 Word:18 BitOffset:9 ItemSize:2
+INFO : Packed gain_analogue_in Id="Gain for Analogue In" - Type:uint into BlockId:552 Word:18 BitOffset:11 ItemSize:5
+INFO : Packed threshold_default Id="Threshold" - Type:uint into BlockId:552 Word:19 BitOffset:0 ItemSize:16
+INFO : Packed trigger_time_default Id="Trigger Time [s]" - Type:uint into BlockId:552 Word:20 BitOffset:0 ItemSize:16
+INFO : Packed AudioAmpUnmuteTime_ms Id="Mute duration on Power Up [ms]" - Type:uint into BlockId:552 Word:21 BitOffset:0 ItemSize:16
+INFO : Packed AudioAmpMuteTime_ms Id="Mute duration on Power down [ms]" - Type:uint into BlockId:552 Word:22 BitOffset:0 ItemSize:16
+INFO : Packed audio_switch_delay_after_disconn Id="Audio source switching delay after disconnection" - Type:uint into BlockId:552 Word:23 BitOffset:0 ItemSize:16
+INFO : Packed TwsAudioActiveDelay_ms Id="Delay for audio active pio going to the active state for TWS [ms]" - Type:uint into BlockId:552 Word:24 BitOffset:0 ItemSize:16
+INFO : Packed aux_out_detect Id="Aux Out Detect PIO" - Type:enum into BlockId:552 Word:25 BitOffset:0 ItemSize:8
+INFO : Packed AudioActivePIO Id="Audio Active" - Type:enum into BlockId:552 Word:25 BitOffset:8 ItemSize:8
+INFO : Packed AudioMutePIO Id="Power On Audio Mute" - Type:enum into BlockId:552 Word:26 BitOffset:0 ItemSize:8
+INFO : Packed PowerOnPIO Id="Power On" - Type:enum into BlockId:552 Word:26 BitOffset:8 ItemSize:8
+INFO : Packed seqSourcePriority2 Id="Enable audio source by assigning it to Priority 2." - Type:enum into BlockId:552 Word:27 BitOffset:0 ItemSize:4
+INFO : Packed seqSourcePriority1 Id="Enable audio source by assigning it to Priority 1." - Type:enum into BlockId:552 Word:27 BitOffset:4 ItemSize:4
+INFO : Packed voice_mic_b Id="Microphone B" - Type:enum into BlockId:552 Word:27 BitOffset:8 ItemSize:4
+INFO : Packed voice_mic_a Id="Microphone A" - Type:enum into BlockId:552 Word:27 BitOffset:12 ItemSize:4
+INFO : Packed seqSourcePriority6 Id="Enable audio source by assigning it to Priority 6." - Type:enum into BlockId:552 Word:28 BitOffset:0 ItemSize:4
+INFO : Packed seqSourcePriority5 Id="Enable audio source by assigning it to Priority 5." - Type:enum into BlockId:552 Word:28 BitOffset:4 ItemSize:4
+INFO : Packed seqSourcePriority4 Id="Enable audio source by assigning it to Priority 4." - Type:enum into BlockId:552 Word:28 BitOffset:8 ItemSize:4
+INFO : Packed seqSourcePriority3 Id="Enable audio source by assigning it to Priority 3." - Type:enum into BlockId:552 Word:28 BitOffset:12 ItemSize:4
+INFO : Packed UseLowPowerAudioCodecs Id="Use Low Power Audio Codecs" - Type:bool into BlockId:552 Word:29 BitOffset:0 ItemSize:1
+INFO : Packed TwsSlaveAudioRouting Id="Routing for lowest BT Address" - Type:enum into BlockId:552 Word:29 BitOffset:1 ItemSize:2
+INFO : Packed TwsMasterAudioRouting Id="Routing for highest BT Address" - Type:enum into BlockId:552 Word:29 BitOffset:3 ItemSize:2
+INFO : Packed defaultSource Id="Default Source at Power On:" - Type:enum into BlockId:552 Word:29 BitOffset:5 ItemSize:3
+INFO : Packed seqSourcePriority8 Id="Enable audio source by assigning it to Priority 8." - Type:enum into BlockId:552 Word:29 BitOffset:8 ItemSize:4
+INFO : Packed seqSourcePriority7 Id="Enable audio source by assigning it to Priority 7." - Type:enum into BlockId:552 Word:29 BitOffset:12 ItemSize:4
+INFO : Packed useSram Id="Use SRAM" - Type:bool into BlockId:552 Word:30 BitOffset:11 ItemSize:1
+INFO : Packed AudioRenderingMode Id="Audio Rendering Mode" - Type:enum into BlockId:552 Word:30 BitOffset:12 ItemSize:1
+INFO : Packed AssumeAutoSuspendOnCall Id="Assume AG Suspends on Call" - Type:bool into BlockId:552 Word:30 BitOffset:13 ItemSize:1
+INFO : Packed CompanderBandSelection Id="Compander Band Selection" - Type:enum into BlockId:552 Word:30 BitOffset:14 ItemSize:2
+INFO : PS key:32 maps BlockId:552 'Sink audio read only config data'
+INFO : Mapping PS key:33
+INFO : Packed requested_audio_source Id="Requested audio source" - Type:enum into BlockId:586 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed preGaIn Id="Pre gain" - Type:uint into BlockId:586 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed band_1_filter Id="Band 1 Filter Type" - Type:uint into BlockId:586 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed band_1_freq Id="Band 1 Frequency" - Type:uint into BlockId:586 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed band_1_gain Id="Band 1 gain" - Type:uint into BlockId:586 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed band_1_q Id="Band 1 Q value" - Type:uint into BlockId:586 Word:6 BitOffset:0 ItemSize:16
+INFO : Packed band_2_filter Id="Band 2 Filter Type" - Type:uint into BlockId:586 Word:7 BitOffset:0 ItemSize:16
+INFO : Packed band_2_freq Id="Band 2 Frequency" - Type:uint into BlockId:586 Word:8 BitOffset:0 ItemSize:16
+INFO : Packed band_2_gain Id="Band 2 gain" - Type:uint into BlockId:586 Word:9 BitOffset:0 ItemSize:16
+INFO : Packed band_2_q Id="Band 2 Q value" - Type:uint into BlockId:586 Word:10 BitOffset:0 ItemSize:16
+INFO : Packed band_3_filter Id="Band 3 Filter Type" - Type:uint into BlockId:586 Word:11 BitOffset:0 ItemSize:16
+INFO : Packed band_3_freq Id="Band 3 Frequency" - Type:uint into BlockId:586 Word:12 BitOffset:0 ItemSize:16
+INFO : Packed band_3_gain Id="Band 3 gain" - Type:uint into BlockId:586 Word:13 BitOffset:0 ItemSize:16
+INFO : Packed band_3_q Id="Band 3 Q value" - Type:uint into BlockId:586 Word:14 BitOffset:0 ItemSize:16
+INFO : Packed band_4_filter Id="Band 4 Filter Type" - Type:uint into BlockId:586 Word:15 BitOffset:0 ItemSize:16
+INFO : Packed band_4_freq Id="Band 4 Frequency" - Type:uint into BlockId:586 Word:16 BitOffset:0 ItemSize:16
+INFO : Packed band_4_gain Id="Band 4 gain" - Type:uint into BlockId:586 Word:17 BitOffset:0 ItemSize:16
+INFO : Packed band_4_q Id="Band 4 Q value" - Type:uint into BlockId:586 Word:18 BitOffset:0 ItemSize:16
+INFO : Packed band_5_filter Id="Band 5 Filter Type" - Type:uint into BlockId:586 Word:19 BitOffset:0 ItemSize:16
+INFO : Packed band_5_freq Id="Band 5 Frequency" - Type:uint into BlockId:586 Word:20 BitOffset:0 ItemSize:16
+INFO : Packed band_5_gain Id="Band 5 gain" - Type:uint into BlockId:586 Word:21 BitOffset:0 ItemSize:16
+INFO : Packed band_5_q Id="Band 5 Q value" - Type:uint into BlockId:586 Word:22 BitOffset:0 ItemSize:16
+INFO : PS key:33 maps BlockId:586 'Sink audio writeable config data'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_audio_routing_config_def.h
+INFO : Mapping PS key:34
+INFO : Packed LanguageConfirmTime_s Id="Time Before Confirming Audio Prompt Set [s]" - Type:uint into BlockId:612 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed num_audio_prompt_languages Id="Number of Audio Prompt Sets" - Type:uint into BlockId:612 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed VoicePromptPairing Id="Read out PIN Code using Audio Prompts" - Type:bool into BlockId:612 Word:3 BitOffset:13 ItemSize:1
+INFO : Packed VoicePromptNumbers Id="Read out Incoming Caller Phone Number using Audio Prompts" - Type:bool into BlockId:612 Word:3 BitOffset:14 ItemSize:1
+INFO : Packed DisableAudioPromptTerminate Id="Disable Audio Prompt Terminate" - Type:bool into BlockId:612 Word:3 BitOffset:15 ItemSize:1
+INFO : PS key:34 maps BlockId:612 'Generic Audio Prompt Read-only Data'
+INFO : Mapping PS key:35
+INFO : Packed num_audio_prompts Id="Audio Prompts Count" - Type:uint into BlockId:619 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed audio_prompts_enabled Id="Audio Prompts Enabled" - Type:bool into BlockId:619 Word:2 BitOffset:11 ItemSize:1
+INFO : Packed audio_prompt_language Id="Audio Prompts Language" - Type:uint into BlockId:619 Word:2 BitOffset:12 ItemSize:4
+INFO : PS key:35 maps BlockId:619 'Generic Audio Prompt Writable Data'
+INFO : Mapping PS key:36
+INFO : Packed event Id="Event" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed cancel_queue_play_immediate Id="Clear Queue and Play Immediately" - Type:bool into BlockId:Relative Word:1 BitOffset:0 ItemSize:1
+INFO : Packed sco_block Id="Don't Play when SCO/Wired Routed" - Type:bool into BlockId:Relative Word:1 BitOffset:1 ItemSize:1
+INFO : Packed state_mask Id="State Mask [hex]" - Type:bitfield into BlockId:Relative Word:1 BitOffset:2 ItemSize:14
+INFO : Packed prompt_id Id="Prompt Index" - Type:uint into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : PS key:36 maps BlockId:625 'Event to Audio Prompt Mapping Table'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_audio_prompts_config_def.h
+INFO : Mapping PS key:37
+INFO : Packed event Id="Event" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed tone Id="Tones" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : PS key:37 maps BlockId:665 'Event Tones'
+INFO : Mapping PS key:38
+INFO : Packed gVariableTone Id="Configtone value" - Type:uint into BlockId:761 Word:1 BitOffset:0 ItemSize:16
+INFO : PS key:38 maps BlockId:761 'ConfigToneData'
+INFO : Mapping PS key:39
+INFO : Packed MuteToneFixedVolume Id="MuteToneFixedVolume" - Type:bool into BlockId:766 Word:1 BitOffset:6 ItemSize:1
+INFO : Packed QueueEventTones Id="QueueEventTones" - Type:bool into BlockId:766 Word:1 BitOffset:7 ItemSize:1
+INFO : Packed QueueVolumeTones Id="QueueVolumeTones" - Type:bool into BlockId:766 Word:1 BitOffset:8 ItemSize:1
+INFO : Packed PlayLocalVolumeTone Id="PlayLocalVolumeTone" - Type:bool into BlockId:766 Word:1 BitOffset:9 ItemSize:1
+INFO : Packed PlayTonesAtFixedVolume Id="PlayTonesAtFixedVolume" - Type:bool into BlockId:766 Word:1 BitOffset:10 ItemSize:1
+INFO : Packed FixedToneVolumeLevel Id="FixedToneVolumeLevel" - Type:uint into BlockId:766 Word:1 BitOffset:11 ItemSize:5
+INFO : PS key:39 maps BlockId:766 'Sink Tones Readonly'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_tones_config_def.h
+INFO : Mapping PS key:40
+INFO : Packed state Id="Extended State" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed OffTime Id="Off Time [ms]" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:8
+INFO : Packed OnTime Id="On Time [ms]" - Type:uint into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Packed TimeOut Id="Timeout Count" - Type:uint into BlockId:Relative Word:2 BitOffset:0 ItemSize:8
+INFO : Packed RepeatTime Id="Repeat Delay [ms]" - Type:uint into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : Packed LED_A Id="LED A Mapping" - Type:enum into BlockId:Relative Word:3 BitOffset:0 ItemSize:8
+INFO : Packed DimTime Id="Dim Time [ms]" - Type:uint into BlockId:Relative Word:3 BitOffset:8 ItemSize:8
+INFO : Packed OverideDisable Id="LED Override Disable" - Type:bool into BlockId:Relative Word:4 BitOffset:0 ItemSize:1
+INFO : Packed Colour Id="Colour" - Type:enum into BlockId:Relative Word:4 BitOffset:1 ItemSize:3
+INFO : Packed NumFlashes Id="Number of Flashes" - Type:uint into BlockId:Relative Word:4 BitOffset:4 ItemSize:4
+INFO : Packed LED_B Id="LED B Mapping" - Type:enum into BlockId:Relative Word:4 BitOffset:8 ItemSize:8
+INFO : PS key:40 maps BlockId:771 'States'
+INFO : Mapping PS key:41
+INFO : Packed event Id="Event" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed OffTime Id="Off Time [ms]" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:8
+INFO : Packed OnTime Id="On Time [ms]" - Type:uint into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Packed TimeOut Id="Timeout Count" - Type:uint into BlockId:Relative Word:2 BitOffset:0 ItemSize:8
+INFO : Packed RepeatTime Id="Repeat Delay [ms]" - Type:uint into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : Packed LED_A Id="LED A Mapping" - Type:enum into BlockId:Relative Word:3 BitOffset:0 ItemSize:8
+INFO : Packed DimTime Id="Dim Time [ms]" - Type:uint into BlockId:Relative Word:3 BitOffset:8 ItemSize:8
+INFO : Packed OverideDisable Id="LED Override Disable" - Type:bool into BlockId:Relative Word:4 BitOffset:0 ItemSize:1
+INFO : Packed Colour Id="Colour" - Type:enum into BlockId:Relative Word:4 BitOffset:1 ItemSize:3
+INFO : Packed NumFlashes Id="Number of Flashes" - Type:uint into BlockId:Relative Word:4 BitOffset:4 ItemSize:4
+INFO : Packed LED_B Id="LED B Mapping" - Type:enum into BlockId:Relative Word:4 BitOffset:8 ItemSize:8
+INFO : PS key:41 maps BlockId:855 'Events'
+INFO : Mapping PS key:42
+INFO : Packed Event Id="Event" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed Speed Id="Speed Factor" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:8
+INFO : Packed OverideLED Id="LED to Use" - Type:enum into BlockId:Relative Word:1 BitOffset:8 ItemSize:8
+INFO : Packed SpeedAction Id="Speed Action" - Type:enum into BlockId:Relative Word:2 BitOffset:0 ItemSize:1
+INFO : Packed Colour Id="Colour" - Type:enum into BlockId:Relative Word:2 BitOffset:1 ItemSize:3
+INFO : Packed FilterType Id="Filter Type" - Type:enum_disabler into BlockId:Relative Word:2 BitOffset:4 ItemSize:3
+INFO : Packed FollowerLEDDelay Id="Follow LED Delay [ms]" - Type:uint into BlockId:Relative Word:2 BitOffset:7 ItemSize:4
+INFO : Packed FilterToCancel Id="Filter to Cancel" - Type:enum into BlockId:Relative Word:2 BitOffset:11 ItemSize:5
+INFO : Packed OverideDisable Id="Override LED Disable" - Type:bool into BlockId:Relative Word:3 BitOffset:15 ItemSize:1
+INFO : PS key:42 maps BlockId:884 'Filters'
+INFO : Mapping PS key:43
+INFO : Packed TriCol_b Id="Tri Colour Led B" - Type:enum into BlockId:960 Word:1 BitOffset:0 ItemSize:8
+INFO : Packed TriCol_a Id="Tri Colour Led A" - Type:enum into BlockId:960 Word:1 BitOffset:8 ItemSize:8
+INFO : Packed TriCol_c Id="Tri Colour Led C" - Type:enum into BlockId:960 Word:2 BitOffset:8 ItemSize:8
+INFO : Packed ChargerTerminationLEDOveride Id="Charging Complete Override LED Enable" - Type:bool into BlockId:960 Word:3 BitOffset:2 ItemSize:1
+INFO : Packed ResetLEDEnableStateAfterReset Id="LED Disable State Reset after Boot" - Type:bool into BlockId:960 Word:3 BitOffset:3 ItemSize:1
+INFO : Packed QueueLEDEvents Id="Queue LED Event Indications" - Type:bool into BlockId:960 Word:3 BitOffset:4 ItemSize:1
+INFO : Packed OverideFilterPermanentlyOn Id="Override Filter LED is Permanently On" - Type:bool into BlockId:960 Word:3 BitOffset:5 ItemSize:1
+INFO : Packed LedTimeMultiplier Id="LED Duty Cycle Time Multiplier" - Type:enum into BlockId:960 Word:3 BitOffset:6 ItemSize:2
+INFO : Packed LedEnablePIO Id="LED Enable PIO" - Type:enum into BlockId:960 Word:3 BitOffset:8 ItemSize:8
+INFO : PS key:43 maps BlockId:960 'LED Config Readable Block'
+INFO : Mapping PS key:44
+INFO : Packed gLEDSEnabled Id="LED Enabled" - Type:bool into BlockId:967 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:44 maps BlockId:967 'LED Session Config Block'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_led_config_def.h
+INFO : Mapping PS key:45
+INFO : Packed aptxAdaptiveDecoderProcessing Id="aptX Adaptive Decoder Processing On P1" - Type:bool into BlockId:972 Word:1 BitOffset:13 ItemSize:1
+INFO : Packed OffloadCeltEncoder Id="Celt Encoder Processing" - Type:bool into BlockId:972 Word:1 BitOffset:14 ItemSize:1
+INFO : Packed OffloadAptxDecoder Id="aptX Decoder Processing" - Type:bool into BlockId:972 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:45 maps BlockId:972 'DSP Capabilities'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_dsp_capabilities_config_def.h
+INFO : Mapping PS key:46
+INFO : Packed EnableAvrcpAudioSwitching Id="AVRCP Audio Switching" - Type:bool into BlockId:977 Word:1 BitOffset:14 ItemSize:1
+INFO : Packed avrcp_enabled Id="AVRCP Enabled" - Type:bool into BlockId:977 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:46 maps BlockId:977 'AVRCP Enable and Audio Switching Mask Bitfields'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_avrcp_config_def.h
+INFO : Mapping PS key:47
+INFO : Packed LeAuthenticatedPayloadTO_s Id="LE Authenticated Payload Timeout" - Type:uint into BlockId:982 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed BleMaxCentralConn Id="BLE Max Central Connection" - Type:uint into BlockId:982 Word:2 BitOffset:5 ItemSize:2
+INFO : Packed BleMaxPeripheralConn Id="BLE Max Peripheral Connection" - Type:uint into BlockId:982 Word:2 BitOffset:7 ItemSize:2
+INFO : Packed BleAdvertisingFilters Id="BLE Advertising Filters" - Type:bitfield into BlockId:982 Word:2 BitOffset:9 ItemSize:7
+INFO : PS key:47 maps BlockId:982 'BLE'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_ble_config_def.h
+INFO : Mapping PS key:48
+INFO : Packed ANCSNotificationEnableMask Id="ANCS Notification Enable Mask" - Type:bitfield into BlockId:988 Word:1 BitOffset:0 ItemSize:16
+INFO : PS key:48 maps BlockId:988 'ANCS_readonly'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_gatt_client_ancs_config_def.h
+INFO : Mapping PS key:49
+INFO : Packed ImmediateAlertTimer_s Id="Alert Tone Period [s]" - Type:uint into BlockId:993 Word:1 BitOffset:0 ItemSize:16
+INFO : PS key:49 maps BlockId:993 'Find Me Server'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_gatt_server_ias_config_def.h
+INFO : Mapping PS key:150
+INFO : Packed ImmediateAlertStopTimeout_client_s Id="Alert Tone Timeout [s]" - Type:uint into BlockId:998 Word:1 BitOffset:0 ItemSize:16
+INFO : PS key:150 maps BlockId:998 'Find Me Common'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_gatt_common_ias_config_def.h
+INFO : Mapping PS key:151
+INFO : Packed LinkLossTimer_s Id="Proximity Tone Period [s]" - Type:uint into BlockId:1003 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed LinkLossAlertStopTimeout_s Id="Proximity Tone Timeout [s]" - Type:uint into BlockId:1003 Word:2 BitOffset:0 ItemSize:16
+INFO : PS key:151 maps BlockId:1003 'Proximity_readonly'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_gatt_server_lls_config_def.h
+INFO : Mapping PS key:152
+INFO : Packed pbap_enabled Id="Enable PBAP" - Type:bool into BlockId:1009 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:152 maps BlockId:1009 'PBAP_readonly'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_pbap_config_def.h
+INFO : Mapping PS key:153
+INFO : Packed StoreCurrentPEQSettingsTimeout_s Id="GAIA User Defined EQ Settings Persistent Store Timeout [s]" - Type:uint into BlockId:1014 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed GaiaRemainConnected Id="Maintain Connection After Power Off" - Type:bool into BlockId:1014 Word:2 BitOffset:10 ItemSize:1
+INFO : Packed GaiaEnableSession Id="Enable GAIA Session" - Type:bool into BlockId:1014 Word:2 BitOffset:11 ItemSize:1
+INFO : Packed dfu_partition Id="GAIA DFU Partition" - Type:uint into BlockId:1014 Word:2 BitOffset:12 ItemSize:4
+INFO : PS key:153 maps BlockId:1014 'GAIA_readonly'
+INFO : Mapping PS key:154
+INFO : Packed pio Id="Physical PIO" - Type:enum into BlockId:Relative Word:0 BitOffset:8 ItemSize:8
+INFO : PS key:154 maps BlockId:1020 'GAIA_pio_translation'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_gaia_config_def.h
+INFO : Mapping PS key:155
+INFO : Packed device_class Id="Class" - Type:bitfield into BlockId:1027 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed audio_always_on Id="USB Audio Always Routed" - Type:bool into BlockId:1027 Word:2 BitOffset:0 ItemSize:1
+INFO : Packed plugin_type Id="USB Plug-in Type" - Type:enum into BlockId:1027 Word:2 BitOffset:1 ItemSize:3
+INFO : Packed deconfigured_timeout Id="Deconfigure Timeout [s]" - Type:uint into BlockId:1027 Word:2 BitOffset:4 ItemSize:4
+INFO : Packed attach_timeout Id="Attach Timeout [s]" - Type:uint into BlockId:1027 Word:2 BitOffset:8 ItemSize:4
+INFO : Packed plugin_index Id="USB Voice Plug-in Index" - Type:enum into BlockId:1027 Word:2 BitOffset:12 ItemSize:4
+INFO : Packed pause_when_switching_source Id="USB Audio Paused When Source Switched" - Type:bool into BlockId:1027 Word:3 BitOffset:15 ItemSize:1
+INFO : PS key:155 maps BlockId:1027 'USB RO'
+INFO : Mapping PS key:156
+INFO : Packed usb_main_volume Id="USB Volume (Main)" - Type:uint into BlockId:1034 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed usb_aux_volume Id="USB Volume (Aux)" - Type:uint into BlockId:1034 Word:2 BitOffset:0 ItemSize:16
+INFO : PS key:156 maps BlockId:1034 'USB RW'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_usb_config_def.h
+INFO : Mapping PS key:157
+INFO : Packed current Id="Max Current [mA]" - Type:uint into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed disable_leds Id="Disable LEDs" - Type:bool into BlockId:Relative Word:1 BitOffset:8 ItemSize:1
+INFO : Packed power_off Id="Power Off" - Type:bool into BlockId:Relative Word:1 BitOffset:9 ItemSize:1
+INFO : Packed vsel Id="Vsel" - Type:enum into BlockId:Relative Word:1 BitOffset:10 ItemSize:1
+INFO : Packed charge Id="Charger Enable" - Type:bool into BlockId:Relative Word:1 BitOffset:11 ItemSize:1
+INFO : Packed charger_config Id="USB Charger Configuration" - Type:enum into BlockId:Relative Word:1 BitOffset:12 ItemSize:4
+INFO : PS key:157 maps BlockId:1040 'USB Power RO'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_usb_charger_config_def.h
+INFO : Mapping PS key:158
+INFO : Packed dplus Id="D+ [V]" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed dminus Id="D- [V]" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed tolerance Id="Tolerance [V]" - Type:enum into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed current Id="Max Current [mA]" - Type:uint into BlockId:Relative Word:3 BitOffset:0 ItemSize:16
+INFO : Packed disable_leds Id="Disable LEDs" - Type:bool into BlockId:Relative Word:4 BitOffset:12 ItemSize:1
+INFO : Packed power_off Id="Power Off" - Type:bool into BlockId:Relative Word:4 BitOffset:13 ItemSize:1
+INFO : Packed vsel Id="Vsel" - Type:enum into BlockId:Relative Word:4 BitOffset:14 ItemSize:1
+INFO : Packed charge Id="Charger Enable" - Type:bool into BlockId:Relative Word:4 BitOffset:15 ItemSize:1
+INFO : PS key:158 maps BlockId:1066 'USB Power Proprietary RO'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_usb_proprietary_charger_config_def.h
+INFO : Mapping PS key:159
+INFO : Packed lbipmenable Id="LBIMP Enable" - Type:bool into BlockId:1090 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:159 maps BlockId:1090 'Sink Power Manager'
+INFO : Mapping PS key:160
+INFO : Packed max_volume_limit Id="Maximum volume level limit whilst charging when the battery is getting low [%]" - Type:uint into BlockId:1095 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed action_when_battery_less_than_gas_gauge0 Id="Action to perform when streaming music and the battery level is getting low whilst charging" - Type:enum into BlockId:1095 Word:2 BitOffset:13 ItemSize:3
+INFO : PS key:160 maps BlockId:1095 'Sink Gas Gauge Actions'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_config_def.h
+INFO : Mapping PS key:161
+INFO : Packed min_charge_i Id="Minimum charge current [mA]" - Type:uint into BlockId:1101 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed max_charge_i Id="Maximum charge current [mA]" - Type:uint into BlockId:1101 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed monitor_period_active Id="Temp monitor period if charger active [ms]" - Type:uint into BlockId:1101 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed monitor_period_idle Id="Temp monitor period if charger idle [ms]" - Type:uint into BlockId:1101 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed monitor_period_nopwr Id="Temp monitor period if charger has no power [ms]" - Type:uint into BlockId:1101 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed no_incr_i_temp Id="Temp Lower Bound [degC]" - Type:uint into BlockId:1101 Word:6 BitOffset:0 ItemSize:8
+INFO : Packed charger_i_step Id="Charger current step size [mA]" - Type:uint into BlockId:1101 Word:6 BitOffset:8 ItemSize:8
+INFO : Packed decr_i_temp Id="Temp Upper Bound [degC]" - Type:uint into BlockId:1101 Word:7 BitOffset:8 ItemSize:8
+INFO : PS key:161 maps BlockId:1101 'PMU Charger Monitor'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_pmu_monitor_config_def.h
+INFO : Mapping PS key:162
+INFO : Packed Vref_Read_Period_Not_Charging Id="Vref Read Period When Not Charging [s]" - Type:uint into BlockId:1112 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed Vref_Read_Period_Charging Id="Vref Read Period When Charging [s]" - Type:uint into BlockId:1112 Word:2 BitOffset:0 ItemSize:8
+INFO : Packed Vref_ADC_Source Id="Vref ADC Source" - Type:enum into BlockId:1112 Word:2 BitOffset:8 ItemSize:8
+INFO : PS key:162 maps BlockId:1112 'Sink Power Readonly Vref'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_vref_config_def.h
+INFO : Mapping PS key:163
+INFO : Packed Vbat_Read_Period_Not_Charging Id="Vbat Read Period When Not Charging [s]" - Type:uint into BlockId:1118 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed Vbat_Read_Period_Charging Id="Vbat Read Period When Charging [s]" - Type:uint into BlockId:1118 Word:2 BitOffset:0 ItemSize:8
+INFO : Packed Vbat_ADC_Source Id="Vbat ADC Source" - Type:enum into BlockId:1118 Word:2 BitOffset:8 ItemSize:8
+INFO : Packed ignore_increase_no_chg Id="Ignore Increasing Vbat Readings When Not Charging" - Type:bool into BlockId:1118 Word:3 BitOffset:15 ItemSize:1
+INFO : Packed limit Id="Vbat Battery Threshold Voltage [mV]" - Type:uint into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed event Id="Vbat User Event" - Type:enum into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed sources Id="Vbat Trigger Source" - Type:bitfield into BlockId:Relative Word:2 BitOffset:5 ItemSize:3
+INFO : Packed notify_period Id="Vbat Notify Interval [s]" - Type:uint into BlockId:Relative Word:2 BitOffset:8 ItemSize:8
+INFO : PS key:163 maps BlockId:1118 'Sink Power Readonly Vbat'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_vbat_config_def.h
+INFO : Mapping PS key:164
+INFO : Packed current_limit_threshold Id="Vchg Current Limit Threshold [V]" - Type:enum into BlockId:1143 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed current_recovery_threshold Id="Vchg Current Recovery Threshold [V]" - Type:enum into BlockId:1143 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed current_limit_read_period Id="Vchg Current Limit Read Period [ms]" - Type:uint into BlockId:1143 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed negative_current_step Id="Negative current step [mA]" - Type:uint into BlockId:1143 Word:4 BitOffset:0 ItemSize:8
+INFO : Packed positive_current_step Id="Positive current step [mA]" - Type:uint into BlockId:1143 Word:4 BitOffset:8 ItemSize:8
+INFO : PS key:164 maps BlockId:1143 'BC 1.2'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_charger_bc12_config_def.h
+INFO : Mapping PS key:165
+INFO : Packed Vthm_Read_Period_Not_Charging Id="Vthm Read Period When Not Charging [s]" - Type:uint into BlockId:1151 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed Vthm_Read_Period_Charging Id="Vthm Read Period When Charging [s]" - Type:uint into BlockId:1151 Word:2 BitOffset:0 ItemSize:8
+INFO : Packed Vthm_ADC_Source Id="Vthm ADC Source" - Type:enum into BlockId:1151 Word:2 BitOffset:8 ItemSize:8
+INFO : Packed lim1 Id="Limit Threshold 1" - Type:uint into BlockId:1151 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed lim2 Id="Limit Threshold 2" - Type:uint into BlockId:1151 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed lim3 Id="Limit Threshold 3" - Type:uint into BlockId:1151 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed lim4 Id="Limit Threshold 4" - Type:uint into BlockId:1151 Word:6 BitOffset:0 ItemSize:16
+INFO : Packed lim5 Id="Limit Threshold 5" - Type:uint into BlockId:1151 Word:7 BitOffset:0 ItemSize:16
+INFO : Packed lim6 Id="Limit Threshold 6" - Type:uint into BlockId:1151 Word:8 BitOffset:0 ItemSize:16
+INFO : Packed lim7 Id="Limit Threshold 7" - Type:uint into BlockId:1151 Word:9 BitOffset:0 ItemSize:16
+INFO : Packed Drive_Thermistor_ICS Id="Drive Thermistor Output ICS" - Type:enum into BlockId:1151 Word:10 BitOffset:0 ItemSize:8
+INFO : Packed Drive_Thermistor_PIO Id="Drive Thermistor Output PIO" - Type:enum into BlockId:1151 Word:10 BitOffset:8 ItemSize:8
+INFO : Packed Use_Raw_Limits Id="Use Raw Limits" - Type:bool into BlockId:1151 Word:11 BitOffset:11 ItemSize:1
+INFO : Packed Thermistor_Drive_Delay Id="Thermistor Drive Delay [ms]" - Type:uint into BlockId:1151 Word:11 BitOffset:12 ItemSize:4
+INFO : PS key:165 maps BlockId:1151 'Sink Power Readonly Vthm'
+INFO : Mapping PS key:166
+INFO : Packed current Id="Max Current [mA]" - Type:uint into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed disable_leds Id="Disable Leds" - Type:bool into BlockId:Relative Word:1 BitOffset:0 ItemSize:1
+INFO : Packed power_off Id="Power Off" - Type:bool into BlockId:Relative Word:1 BitOffset:1 ItemSize:1
+INFO : Packed vsel Id="Vsel" - Type:enum into BlockId:Relative Word:1 BitOffset:2 ItemSize:1
+INFO : Packed charge Id="Charge" - Type:bool into BlockId:Relative Word:1 BitOffset:3 ItemSize:1
+INFO : Packed termination_type Id="Termination Type" - Type:enum into BlockId:Relative Word:1 BitOffset:4 ItemSize:3
+INFO : Packed charger_vthm_region Id="Charger Vthm Region" - Type:enum into BlockId:Relative Word:1 BitOffset:7 ItemSize:4
+INFO : Packed termination_voltage Id="Voltage [V]" - Type:enum into BlockId:Relative Word:1 BitOffset:11 ItemSize:5
+INFO : PS key:166 maps BlockId:1166 'Charger Vthm Control'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_vthm_config_def.h
+INFO : Mapping PS key:167
+INFO : Packed Vchg_Read_Period_Not_Charging Id="Vchg Read Period When Not Charging [s]" - Type:uint into BlockId:1186 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed Vchg_Read_Period_Charging Id="Vchg Read Period When Charging [s]" - Type:uint into BlockId:1186 Word:2 BitOffset:0 ItemSize:8
+INFO : Packed Vchg_ADC_Source Id="Vchg ADC Source" - Type:enum into BlockId:1186 Word:2 BitOffset:8 ItemSize:8
+INFO : PS key:167 maps BlockId:1186 'Sink Power Readonly Vchg'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_vchg_config_def.h
+INFO : Mapping PS key:168
+INFO : Packed ext_fast Id="External Charger Fitted" - Type:bool into BlockId:1192 Word:1 BitOffset:5 ItemSize:1
+INFO : Packed ext_resistor_value Id="External Mode Sense-Resistor Value [mOhm]" - Type:uint into BlockId:1192 Word:1 BitOffset:6 ItemSize:10
+INFO : PS key:168 maps BlockId:1192 'External Charger'
+INFO : Mapping PS key:169
+INFO : Packed Charger_Progress_Monitor_Read_Period_Charging Id="Charger Progress Monitor Read Period When Charging [s]" - Type:uint into BlockId:1197 Word:1 BitOffset:0 ItemSize:8
+INFO : Packed current_external_devices Id="Current taken by external devices directly from charger [mA]" - Type:uint into BlockId:1197 Word:1 BitOffset:8 ItemSize:8
+INFO : Packed debounce_time Id="State Change Debounce Timer" - Type:enum into BlockId:1197 Word:2 BitOffset:4 ItemSize:2
+INFO : Packed iterm_ctrl Id="Termination Current Control" - Type:enum into BlockId:1197 Word:2 BitOffset:6 ItemSize:2
+INFO : Packed pre_fast_threshold Id="Pre-Fast Voltage Threshold" - Type:enum into BlockId:1197 Word:2 BitOffset:8 ItemSize:2
+INFO : Packed standby_fast_hysteresis Id="Standby-Fast Charge Voltage Hysteresis (Vhyst)" - Type:enum into BlockId:1197 Word:2 BitOffset:10 ItemSize:2
+INFO : Packed default_vfloat Id="Vchg Termination Voltage (Vfloat) [V]" - Type:enum into BlockId:1197 Word:2 BitOffset:12 ItemSize:4
+INFO : PS key:169 maps BlockId:1197 'Charger Progress'
+INFO : Mapping PS key:170
+INFO : Packed precharge_current Id="Pre-charge Current [mA]" - Type:uint into BlockId:1203 Word:1 BitOffset:0 ItemSize:8
+INFO : Packed trickle_charge_current Id="Trickle Charge Current [mA]" - Type:uint into BlockId:1203 Word:1 BitOffset:8 ItemSize:8
+INFO : PS key:170 maps BlockId:1203 'Charger Currents'
+INFO : Mapping PS key:171
+INFO : Packed trickle_charge_timeout Id="Trickle Charge Timeout [m]" - Type:uint into BlockId:1208 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed precharge_timeout Id="Pre-charge Timeout [m]" - Type:uint into BlockId:1208 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed fast_charge_timeout Id="Fast Charge Timeout [m]" - Type:uint into BlockId:1208 Word:3 BitOffset:0 ItemSize:16
+INFO : PS key:171 maps BlockId:1208 'Charger Safety'
+INFO : Mapping PS key:172
+INFO : Packed vsel_fast_charge Id="Fast Charge Voltage Select" - Type:enum into BlockId:1215 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:172 maps BlockId:1215 'Voltage Selector'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_power_manager_charger_configuration_config_def.h
+INFO : Mapping PS key:173
+INFO : Packed BrEdrAuthenticatedPayloadTO_s Id="BR/EDR Authenticated Payload Timeout" - Type:uint into BlockId:1220 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed SecureConnectionMode Id="Secure Connection" - Type:enum into BlockId:1220 Word:2 BitOffset:14 ItemSize:2
+INFO : PS key:173 maps BlockId:1220 'Sink Secure Connection'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_secure_connection_config_def.h
+INFO : Mapping PS key:174
+INFO : Packed dormant_nfc Id="NFC wake up source" - Type:bitfield into BlockId:1226 Word:1 BitOffset:0 ItemSize:3
+INFO : Packed dormant_xio Id="XIO wake up source" - Type:bitfield into BlockId:1226 Word:1 BitOffset:3 ItemSize:13
+INFO : PS key:174 maps BlockId:1226 'sink_dormant_mode'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_low_power_mode_config_def.h
+INFO : Mapping PS key:175
+INFO : Packed protect_audio_during_upgrade Id="Protect Audio During Upgrade" - Type:bool into BlockId:1231 Word:1 BitOffset:14 ItemSize:1
+INFO : Packed enable_app_config_reset Id="Enable Application Config Reset" - Type:bool into BlockId:1231 Word:1 BitOffset:15 ItemSize:1
+INFO : PS key:175 maps BlockId:1231 'Sink Upgrade Readonly'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_upgrade_config_def.h
+INFO : Mapping PS key:176
+INFO : Packed disp_backlight_pio Id="Display Backlight PIO" - Type:enum into BlockId:1236 Word:1 BitOffset:0 ItemSize:8
+INFO : Packed disp_reset_pio Id="Display Reset PIO" - Type:enum into BlockId:1236 Word:1 BitOffset:8 ItemSize:8
+INFO : PS key:176 maps BlockId:1236 'Sink Display'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_display_config_def.h
+INFO : Mapping PS key:177
+INFO : Packed default_rate Id="Default Rate" - Type:enum into BlockId:1241 Word:1 BitOffset:0 ItemSize:16
+INFO : PS key:177 maps BlockId:1241 'Settings'
+INFO : Mapping PS key:178
+INFO : Packed input_use_case Id="Input Use Case" - Type:bitfield into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed voice_use_case Id="Voice Use Case" - Type:bitfield into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : Packed prompt_use_case Id="Prompt Use Case" - Type:bitfield into BlockId:Relative Word:2 BitOffset:0 ItemSize:16
+INFO : Packed feature_use_case Id="Feature Use Case" - Type:bitfield into BlockId:Relative Word:3 BitOffset:0 ItemSize:16
+INFO : Packed mixer_use_case Id="Mixer Use Case" - Type:bitfield into BlockId:Relative Word:4 BitOffset:0 ItemSize:16
+INFO : Packed output_use_case Id="Output Use Case" - Type:bitfield into BlockId:Relative Word:5 BitOffset:0 ItemSize:16
+INFO : Packed aec_use_case Id="AEC Use Case" - Type:bitfield into BlockId:Relative Word:6 BitOffset:0 ItemSize:16
+INFO : Packed clock_rate Id="Clock Rate" - Type:enum into BlockId:Relative Word:7 BitOffset:0 ItemSize:16
+INFO : PS key:178 maps BlockId:1246 'Use Case Table'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_audio_clock_config_def.h
+INFO : Mapping PS key:179
+INFO : Packed a2dp_target_ttp_latency_ms Id="A2DP Target Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:1 BitOffset:0 ItemSize:16
+INFO : Packed a2dp_minimum_ttp_latency_ms Id="A2DP Minimum Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:2 BitOffset:0 ItemSize:16
+INFO : Packed a2dp_maximum_ttp_latency_ms Id="A2DP Maximum Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:3 BitOffset:0 ItemSize:16
+INFO : Packed tws_target_ttp_latency_ms Id="TWS Target Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:4 BitOffset:0 ItemSize:16
+INFO : Packed tws_minimum_ttp_latency_ms Id="TWS Minimum Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:5 BitOffset:0 ItemSize:16
+INFO : Packed tws_maximum_ttp_latency_ms Id="TWS Maximum Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:6 BitOffset:0 ItemSize:16
+INFO : Packed wired_target_ttp_latency_ms Id="Wired Target Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:7 BitOffset:0 ItemSize:16
+INFO : Packed wired_minimum_ttp_latency_ms Id="Wired Minimum Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:8 BitOffset:0 ItemSize:16
+INFO : Packed wired_maximum_ttp_latency_ms Id="Wired Maximum Time To Play Latency [ms]" - Type:uint into BlockId:1322 Word:9 BitOffset:0 ItemSize:16
+INFO : PS key:179 maps BlockId:1322 'TTP Latency Config'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_audio_ttp_config_def.h
+INFO : Mapping PS key:180
+INFO : Packed bundle_filename Id="DSP_Capability_Bundle_Filename" - Type:AsciiString into BlockId:Relative Word:0 BitOffset:0 ItemSize:50
+INFO : Packed available_on_processor Id="Processor" - Type:enum into BlockId:Relative Word:25 BitOffset:8 ItemSize:8
+INFO : PS key:180 maps BlockId:1335 'DSP Capability Bundle Files'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_downloadable_capabilities_config_def.h
+INFO : Mapping PS key:181
+INFO : Packed original_cap_id Id="DSP Capability" - Type:enum into BlockId:Relative Word:0 BitOffset:0 ItemSize:16
+INFO : Packed new_cap_id Id="Capability_ID_[Hex]" - Type:uint into BlockId:Relative Word:1 BitOffset:0 ItemSize:16
+INFO : PS key:181 maps BlockId:1677 'Configure DSP Capability IDs'
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\sink_configure_dsp_capability_ids_config_def.h
+INFO : Generating file: ..\../pskey_map.xml
+INFO : Preparations before writing: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\config_definition.xml
+INFO : Creating ConfigPatternArray group user_event_set
+INFO : Generating file: ..\../config_definition.xml
+INFO : ..\../config_definition.gz contains 49118 bytes of compressed data
+INFO : ..\../config_definition.xml signature is 83c4fe7b2bcdc61bee9a64185154ea1f
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\config_definition.c
+INFO : Generating file: D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\config_definition.h
+INFO : ********************************************************************
+INFO : ***                                                              ***
+INFO : *** Build Config Script - Processing Completed Successfully      ***
+INFO : ***                                                              ***
+INFO : ********************************************************************
+INFO : Execution time: 0:00:02.384000

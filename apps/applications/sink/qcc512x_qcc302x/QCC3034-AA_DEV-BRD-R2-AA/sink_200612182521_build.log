@@ -1,0 +1,41 @@
+
+>>> [C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin/make.exe SDK=C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools DEVKIT_ROOT=C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26 -s MAKE_JOBS=True clean -f makefile CONFIG=stre_rom_v02_release BUNDLE_NAME=download_cvc_send BUILD_NAME=kymera_stre_audio KYMERA_SRC_PATH=../.. BUILD_PATH=$(DEVKIT_ROOT)/audio/kalimba_ROM_4786/kymera/output/stre_rom_v02_release/build BUILD_ROOT=$(DEVKIT_ROOT)/audio/kalimba/kymera/build OSTYPE=Windows_NT]
+
+
+
+Build using a makefile
+Added DEVKIT_ROOT=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26 to the environment
+Running C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin/make.exe -s -f Makefile -R DEVKIT_ROOT=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26 -j4 -Otarget clean CHIP_TYPE=qcc512x_qcc302x BUILD_TYPE=MAKEFILE INCPATHS=core/include_fw ../../common/interface ../../common/interface/app bt/qbluestack/adapter bt/qbluestack/port customer/core customer/apps customer/libs gen/customer/core customer/core customer/apps customer/libs gen/customer/core core core/include gen/core bt customer/core/trap_api gen/customer/core/trap_api customer/core gen/customer/core customer/core/trap_api gen/customer/core/trap_api customer/core gen/customer/core . MAKEFILE_RULES_DIR=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools in D:\3034_sink\example1_qcc3034_adk64226\apps\fw\src
+
+>>> [C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin/make.exe -s -f Makefile -R DEVKIT_ROOT=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26 -j4 -Otarget clean CHIP_TYPE=qcc512x_qcc302x BUILD_TYPE=MAKEFILE 's' MAKEFILE_RULES_DIR=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools]
+
+
+
+Build using a makefile
+Added DEVKIT_ROOT=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26 to the environment
+Running C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin/make.exe -s -f Makefile -R DEVKIT_ROOT=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26 -j4 -Otarget CONFIGS=qcc512x_qcc302x clean CHIP_TYPE=qcc512x_qcc302x BUILD_TYPE=DEBUG PRIVATE_LIBS= PRIVATE_LIBS_SEED=59187 INCPATHS=..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\apps\installed_libs\include\firmware_qcc512x_qcc302x C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\apps\installed_libs\include\firmware_qcc512x_qcc302x\app C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\apps\installed_libs\include\standard MAKEFILE_RULES_DIR=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools in D:\3034_sink\example1_qcc3034_adk64226\apps\libs
+
+>>> [C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin/make.exe -s -f Makefile -R DEVKIT_ROOT=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26 -j4 -Otarget CONFIGS=qcc512x_qcc302x clean CHIP_TYPE=qcc512x_qcc302x BUILD_TYPE=DEBUG PRIVATE_LIBS= PRIVATE_LIBS_SEED=59187 's' MAKEFILE_RULES_DIR=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools]
+SDK is C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools
+BUILDING FOR qcc512x_qcc302x
+
+
+
+
+>>> [C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin/make.exe SDK=C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools DEVKIT_ROOT=C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26 -s -j4 clean -f D:/3034_sink/example1_qcc3034_adk64226/apps/applications/sink/qcc512x_qcc302x/common/sink.headset.mak MAKEFILE_RULES_DIR=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools]
+
+
+
+
+
+
+
+C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin
+Using C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools/Makefile.rules
+SDK is C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools
+BUILDING FOR qcc512x_qcc302x
+------ Deleting intermediate files and output files for sink [Headset] ------
+----------------------------------- Clean finished -----------------------------------------
+
+
+

@@ -1,0 +1,205 @@
+
+
+
+
+primary_service {
+    uuid : 0x1801,
+    name : "GATT_SERVICE",
+    characteristic {
+        uuid : 0x2A05,
+        name : "GATT_SERVICE_CHANGED",
+        properties : [ indicate ],
+        client_config
+        {
+            name : "GATT_SERVICE_CHANGED_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ ]
+        }
+    },
+
+    characteristic {
+        uuid : 0x2B29,
+        name : "GATT_CLIENT_SUPPORTED_FEATURES",
+        properties : [read, write],
+        flags : [FLAG_IRQ],
+        size_value : 1
+    }
+},
+
+
+
+
+primary_service {
+    uuid : 0x1800,
+    name : "GAP_SERVICE",
+    sdp : true,
+    characteristic {
+        uuid : 0x2A00,
+        name : "DEVICE_NAME",
+        flags : [ FLAG_IRQ ],
+        properties : [ read ]
+    },
+    characteristic {
+        uuid : 0x2A01,
+        name : "DEVICE_APPEARANCE",
+        flags : [ FLAG_IRQ ],
+        properties : [ read ]
+    }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+primary_service {
+    uuid : 0x1804,
+    name : "TRANSMIT_POWER_SERVER_SERVICE",
+    characteristic {
+        uuid : 0x2A07,
+        name : "TRANSMIT_POWER_LEVEL",
+        flags : [ FLAG_IRQ, FLAG_ENCR_R],
+        properties : [ read ],
+        value : 0x0
+    }
+},
+
+
+
+
+
+
+
+
+primary_service {
+    uuid : 0x1802,
+    name : "IMM_ALERT_SERVICE",
+    characteristic {
+        uuid : 0x2A06,
+        name : "IMM_ALERT_LEVEL",
+        flags : [ FLAG_IRQ, FLAG_ENCR_W],
+        properties : [ write_cmd ],
+        value : 0x0
+    }
+},
+
+
+
+
+primary_service {
+    uuid : 0x1803,
+    name : "LINK_LOSS_SERVICE",
+
+
+
+    characteristic {
+        uuid : 0x2A06,
+        name : "LINK_LOSS_ALERT_LEVEL",
+        properties : [read, write],
+        flags : [FLAG_IRQ, FLAG_ENCR_R, FLAG_ENCR_W],
+        value : 0x0
+    }
+},
+
+
+
+
+primary_service {
+    uuid : 0x1100D10211E19B2300025B00A5A5,
+    name : "GAIA_SERVICE",
+    characteristic {
+        uuid : 0x1101D10211E19B2300025B00A5A5,
+        name : "GAIA_COMMAND_ENDPOINT",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN, FLAG_ENCR_W ],
+        properties : [ write ],
+        value : 0x0
+    },
+ characteristic {
+        uuid : 0x1102D10211E19B2300025B00A5A5,
+        name : "GAIA_RESPONSE_ENDPOINT",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN ],
+        properties : [ read, notify ],
+        value : 0x0,
+        client_config
+        {
+            name : "GAIA_RESPONSE_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ , FLAG_DYNLEN ]
+        }
+    },
+ characteristic {
+        uuid : 0x1103D10211E19B2300025B00A5A5,
+        name : "GAIA_DATA_ENDPOINT",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN, FLAG_ENCR_W, FLAG_ENCR_R ],
+        properties : [ write_cmd, notify, read ],
+        value : 0x0,
+        client_config
+        {
+            name : "GAIA_DATA_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ , FLAG_DYNLEN ]
+        }
+ }
+},
+
+
+
+primary_service {
+    uuid : 0xFE2C,
+    name : "FAST_PAIR_SERVICE",
+
+
+
+    characteristic {
+        uuid : 0x1234,
+        name : "KEYBASED_PAIRING",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN ],
+        properties : [ write, indicate ],
+
+        value : [0x00, 0x00],
+
+        client_config {
+            name : "KEYBASED_PAIRING_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ ]
+            }
+    },
+
+
+
+
+    characteristic {
+        uuid : 0x1235,
+        name : "PASSKEY",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN ],
+        properties : [ write, indicate ],
+
+        value : [ 0x00, 0x00 ],
+
+        client_config {
+            name : "PASSKEY_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ ]
+            }
+    },
+
+
+
+
+    characteristic {
+        uuid : 0x1236,
+        name : "ACCOUNT_KEY",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN ],
+        properties : [ write ],
+
+        value : [ 0x00, 0x00 ]
+    }
+},
+
+
+primary_service { uuid : 0x180f, name : "BATTERY_SERVICE1", sdp : true, characteristic { uuid : 0x2a19, name : "BATTERY_LEVEL1", flags : [ FLAG_IRQ ], properties : [ read , notify ], value : 0x0, presentation_format { name : "BATTERY_LEVEL_PRESENTATION1", flags : [ FLAG_IRQ , FLAG_DYNLEN ] }, client_config { name : "BATTERY_LEVEL_CLIENT_CONFIG1", flags : [ FLAG_IRQ , FLAG_DYNLEN ] } } },

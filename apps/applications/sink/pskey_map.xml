@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PsKeyMap >
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="9" 
+        Id="A2DP Config" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="10" 
+        Id="A2DP Session Data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="11" 
+        Id="sink hfp data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="12" 
+        Id="HFP AT Commands Data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="13" 
+        Id="Event to AT Commands Mapping" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="14" 
+        Id="One Touch Dial Phone Number" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="15" 
+        Id="PIO Writeable" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="16" 
+        Id="PIO" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="17" 
+        Id="PIO Function Configuration" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="18" 
+        Id="SinkPrivateData" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="19" 
+        Id="SinkPrivateData_Writeable" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="20" 
+        Id="Button Sequence Configuration" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="21" 
+        Id="Button Config Block 2" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="22" 
+        Id="Translation Table" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="23" 
+        Id="User Event Set C" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="24" 
+        Id="User Event Set B" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="25" 
+        Id="User Event Set A" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="26" 
+        Id="SinkInquiry" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="27" 
+        Id="SinkMultiChannel" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="28" 
+        Id="Device and Software Version Module" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="29" 
+        Id="sink dut readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="30" 
+        Id="sink volume writeable data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="31" 
+        Id="Sink Volume Readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="32" 
+        Id="Sink audio read only config data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="33" 
+        Id="Sink audio writeable config data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="34" 
+        Id="Generic Audio Prompt Read-only Data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="35" 
+        Id="Generic Audio Prompt Writable Data" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="36" 
+        Id="Event to Audio Prompt Mapping Table" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="37" 
+        Id="Event Tones" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="38" 
+        Id="ConfigToneData" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="39" 
+        Id="Sink Tones Readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="40" 
+        Id="States" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="41" 
+        Id="Events" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="42" 
+        Id="Filters" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="43" 
+        Id="LED Config Readable Block" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="44" 
+        Id="LED Session Config Block" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="45" 
+        Id="DSP Capabilities" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="46" 
+        Id="AVRCP Enable and Audio Switching Mask Bitfields" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="47" 
+        Id="BLE" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="48" 
+        Id="ANCS_readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="49" 
+        Id="Find Me Server" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="150" 
+        Id="Find Me Common" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="151" 
+        Id="Proximity_readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="152" 
+        Id="PBAP_readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="153" 
+        Id="GAIA_readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="154" 
+        Id="GAIA_pio_translation" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="155" 
+        Id="USB RO" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="156" 
+        Id="USB RW" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="157" 
+        Id="USB Power RO" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="158" 
+        Id="USB Power Proprietary RO" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="159" 
+        Id="Sink Power Manager" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="160" 
+        Id="Sink Gas Gauge Actions" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="161" 
+        Id="PMU Charger Monitor" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="162" 
+        Id="Sink Power Readonly Vref" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="163" 
+        Id="Sink Power Readonly Vbat" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="164" 
+        Id="BC 1.2" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="165" 
+        Id="Sink Power Readonly Vthm" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="166" 
+        Id="Charger Vthm Control" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="167" 
+        Id="Sink Power Readonly Vchg" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="168" 
+        Id="External Charger" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="169" 
+        Id="Charger Progress" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="170" 
+        Id="Charger Currents" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="171" 
+        Id="Charger Safety" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="172" 
+        Id="Voltage Selector" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="173" 
+        Id="Sink Secure Connection" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="174" 
+        Id="sink_dormant_mode" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="175" 
+        Id="Sink Upgrade Readonly" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="176" 
+        Id="Sink Display" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="177" 
+        Id="Settings" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="178" 
+        Id="Use Case Table" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="179" 
+        Id="TTP Latency Config" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="180" 
+        Id="DSP Capability Bundle Files" />
+
+    <ConfigGroup 
+        Active="True" 
+        PsKeyNumber="181" 
+        Id="Configure DSP Capability IDs" />
+</PsKeyMap>

@@ -1,0 +1,112 @@
+Deploying deploy to 'device://tc/usb2tc/122/qcc3034'
+Using FLASH_CONFIG D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\32Mbit_default_flash_config.py
+Deploy all projects
+Building project: Project: cur_cfg_filesystem : D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\cur_cfg_filesystem.x2p, config: filesystem
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\cur_cfg_filesystem.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\cur_cfg_filesystem.x2p
+Copied D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\curator_config_filesystem.xuv to c:\users\lwy\appdata\local\temp\tmpixwbhn\curator_config_filesystem.xuv
+Building project: Project: deploy : D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\deploy.x2p, config: deploy
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\deploy.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\deploy.x2p
+Building project: Project: user_ps_filesystem : D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\user_ps_filesystem.x2p, config: filesystem
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\user_ps_filesystem.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\user_ps_filesystem.x2p
+Copied D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\user_ps_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpixwbhn\user_ps_filesystem.xuv
+Building project: Project: fw_cfg_filesystem : D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\fw_cfg_filesystem.x2p, config: filesystem
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\fw_cfg_filesystem.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\fw_cfg_filesystem.x2p
+Copied D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\firmware_config_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpixwbhn\firmware_config_filesystem.xuv
+Building project: Project: dev_cfg_filesystem : D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\dev_cfg_filesystem.x2p, config: filesystem
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\dev_cfg_filesystem.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\dev_cfg_filesystem.x2p
+Copied D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\QCC3034-AA_DEV-BRD-R2-AA\device_config_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpixwbhn\device_config_filesystem.xuv
+Building project: Project: apps0_firmware : D:\3034_sink\example1_qcc3034_adk64226\images\apps0_firmware\common\apps0_firmware.x2p, config: prebuilt_image
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\images\apps0_firmware\common\apps0_firmware.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\images\apps0_firmware\common\apps0_firmware.x2p
+D:\3034_sink\example1_qcc3034_adk64226\images\apps0_firmware\common\apps_p0_firmware.xuv
+Copied D:\3034_sink\example1_qcc3034_adk64226\images\apps0_firmware\common\apps_p0_firmware.xuv to c:\users\lwy\appdata\local\temp\tmpixwbhn\apps_p0_firmware.xuv
+Building project: Project: sink : D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\sink.x2p, config: Headset
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\sink.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\sink.x2p
+Loading elf symbols from D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\depend_Headset_qcc512x_qcc302x\sink.elf
+  .text_reset block starting at 0x00000000, 104 bytes
+  .slt block starting at 0x00000080, 8 bytes
+  .slt_app block starting at 0x00000088, 4 bytes
+  .text_tcm block starting at 0x0000008c, 390 bytes
+  .text block starting at 0x00000212, 448494 bytes
+  .text_private block starting at 0x0006da00, 3936 bytes
+  .const block starting at 0x0006e960, 53996 bytes
+  .const_private block starting at 0x0007bc4c, 2856 bytes
+  .initc block starting at 0x0007c774, 1360 bytes
+Done.
+Created c:\users\lwy\appdata\local\temp\tmpixwbhn\sink.xuv
+Already have a app/p1
+Already have a app/p1
+Building project: Project: customer_ro_filesystem : D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\customer_ro_filesystem.x2p, config: filesystem
+Adding dependent project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\customer_ro_filesystem.x2p
+Processing project D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\customer_ro_filesystem.x2p
+Copied D:\3034_sink\example1_qcc3034_adk64226\apps\applications\sink\qcc512x_qcc302x\common\customer_ro_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpixwbhn\customer_ro_filesystem.xuv
+1 windowed masters
+Device attach succeeded.
+
+flash0 
+{ 'encrypt': False,
+  'flash_device': { 'alt_image_offset': 2097152,
+                    'block_size': 65536,
+                    'boot_block_size': None},
+  'flash_image': { 'bank': 'bank0',
+                   'flash_image_xuv': 'D:\\3034_sink\\example1_qcc3034_adk64226\\apps\\applications\\sink\\qcc512x_qcc302x\\QCC3034-AA_DEV-BRD-R2-AA\\flash_image.xuv'},
+  'layout': [ ( 'curator_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpixwbhn\\curator_config_filesystem.xuv',
+                  'src_file_signed': False}),
+              ( 'apps_p0',
+                { 'authenticate': True,
+                  'capacity': 655360,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpixwbhn\\apps_p0_firmware.xuv',
+                  'src_file_signed': True}),
+              ( 'apps_p1',
+                { 'authenticate': False,
+                  'capacity': 524288,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpixwbhn\\sink.xuv'}),
+              ( 'device_ro_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'inline_auth_hash': True,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpixwbhn\\device_config_filesystem.xuv'}),
+              ( 'rw_config',
+                { 'capacity': 131072,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpixwbhn\\user_ps_filesystem.xuv'}),
+              ('rw_fs', { 'capacity': 65536}),
+              ( 'ro_cfg_fs',
+                { 'authenticate': False,
+                  'capacity': 131072,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpixwbhn\\firmware_config_filesystem.xuv'}),
+              ( 'ro_fs',
+                { 'authenticate': False,
+                  'capacity': 327680,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpixwbhn\\customer_ro_filesystem.xuv'})]}
+Padding c:\users\lwy\appdata\local\temp\tmpixwbhn\sink.xuv address 0x0 with [(104, 24)]
+
+Exception Name: CapacityError
+Traceback (most recent call last):
+  File "C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/ubuild/ubuild.py", line 119, in main
+    return dep.deploy(proj_parser, dk_parser, parsed_args)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 494, in deploy
+    return deploy_to_device(proj_parser, dk_parser, parsed_args, build_output_folder)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 410, in deploy_to_device
+    return deploy_special_deploy_project(parsed_args, build_output_folder)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 386, in deploy_special_deploy_project
+    return deploy_single_image.main(args)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy_single_image.py", line 138, in main
+    apps_image, audio_image = single_image.create_flash_image(args.devkit_root, output_path)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\prepare_single_image.py", line 569, in create_flash_image
+    builder.build()
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\apps\fw\tools\pylib\csr\dev\tools\flash_image_builder.py", line 215, in build
+    nonce=read_nonce, section_name=section_name)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\apps\fw\tools\pylib\csr\dev\tools\flash_image_builder.py", line 351, in _build_image
+    sections = self._read_sections()
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\apps\fw\tools\pylib\csr\dev\tools\flash_image_builder.py", line 407, in _read_sections
+    raise CapacityError(err_str)
+CapacityError: Image for section ro_fs with size 615000 exceeds section's capacity of 327680

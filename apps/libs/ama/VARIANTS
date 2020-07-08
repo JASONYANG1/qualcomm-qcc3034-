@@ -1,0 +1,9 @@
+VARIANTS := debug debug_rx_tx debug_lib_tx_rx
+
+# Include DEBUG
+CFLAGS_debug := -DDEBUG_PRINT_ENABLED -DDEBUG_AMA_LIB
+
+CFLAGS_debug_rx_tx := -DDEBUG_PRINT_ENABLED -DDEBUG_AMA_RX_TX
+
+CFLAGS_debug_lib_tx_rx := -DDEBUG_PRINT_ENABLED -DDEBUG_AMA_LIB -DDEBUG_AMA_RX_TX
+

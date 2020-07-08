@@ -1,0 +1,3 @@
+Download Capability BUILD ID = 9000
+ELF File ID = 0x262E934E
+Base Build ID = 8990
